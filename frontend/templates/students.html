@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Students — SPAS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .students-header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+        .search-bar { display:flex; gap:8px; }
+        .search-bar input { padding:8px 14px; border-radius:8px; border:1px solid var(--clr-border,#333); background:var(--clr-surface,#1e1e2e); color:var(--text-primary,#fff); font-size:0.9rem; min-width:220px; }
+        .students-table-wrap { overflow-x:auto; margin-top:18px; }
+        .students-count { font-size:0.85rem; color:var(--text-muted,#aaa); margin-top:6px; }
+        .badge { display:inline-block; padding:3px 10px; border-radius:20px; font-size:0.78rem; font-weight:600; }
+        .badge-pass { background:#1a3a2a; color:#4caf50; }
+        .badge-fail { background:#3a1a1a; color:#f44336; }
+        .badge-avg  { background:#2a2a1a; color:#ffb300; }
+        #no-results { text-align:center; padding:32px; color:var(--text-muted,#aaa); display:none; }
+    </style>
+</head>
+<body>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages">
+        {% for category, message in messages %}
+        <div class="flash-msg {{ category }}">{{ message }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <div class="dashboard-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">&#128202; SPAS</div>
+            <nav class="sidebar-nav">
+                <a href="/">&#127968; Home</a>
+                <a href="/dashboard">&#128203; Dashboard</a>
+                <a href="/analysis">&#128269; Analysis</a>
+                <a href="/recommendation">&#128161; Recommendations</a>
+                <a href="/students" class="active">&#128101; All Students</a>
+                <a href="/objectives">&#127919; Objectives</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="/logout" class="btn btn-danger btn-sm" style="width:100%">&#128682; Logout</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="page-header students-header">
+                <h1>&#128101; All Students</h1>
+                <div class="search-bar">
+                    <input type="text" id="filter-input" placeholder="Search by name..." oninput="filterTable()">
+                </div>
+            </div>
+
+            <p class="students-count" id="students-count">Loading...</p>
+
+            <div class="card students-table-wrap">
+                <table class="data-table" id="students-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Roll No.</th>
+                            <th>Department</th>
+                            <th>Semester</th>
+                            <th>Attendance %</th>
+                            <th>Subjects</th>
+                            <th>Avg Marks</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="students-tbody">
+                        <tr><td colspan="9" style="text-align:center;color:var(--text-muted)">Loading students...</td></tr>
+                    </tbody>
+                </table>
+                <div id="no-results">No students found matching your search.</div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+    let allStudents = [];
+
+    async function loadStudents() {
+        try {
+            const res = await fetch('/api/all-students');
+            allStudents = await res.json();
+            renderTable(allStudents);
+        } catch(e) {
+            document.getElementById('students-tbody').innerHTML =
+                '<tr><td colspan="9" style="text-align:center;color:#f44336">Failed to load students. Is the server running?</td></tr>';
+        }
+    }
+
+    function avgMarks(marks) {
+        if (!marks || marks.length === 0) return 0;
+        const sum = marks.reduce((a, m) => a + m.marks, 0);
+        return Math.round(sum / marks.length);
+    }
+
+    function statusBadge(avg) {
+        if (avg >= 75) return '<span class="badge badge-pass">Pass</span>';
+        if (avg >= 50) return '<span class="badge badge-avg">Average</span>';
+        return '<span class="badge badge-fail">At Risk</span>';
+    }
+
+    function renderTable(students) {
+        const tbody = document.getElementById('students-tbody');
+        document.getElementById('students-count').textContent =
+            `Showing ${students.length} student(s)`;
+
+        if (students.length === 0) {
+            tbody.innerHTML = '';
+            document.getElementById('no-results').style.display = 'block';
+            return;
+        }
+        document.getElementById('no-results').style.display = 'none';
+
+        tbody.innerHTML = students.map((s, i) => {
+            const avg = avgMarks(s.marks);
+            const subjectList = s.marks.map(m => m.subject).join(', ') || '—';
+            // Compute attendance: prefer per-subject avg from marks, fallback to student-level
+            let attDisplay = 'N/A';
+            if (s.marks && s.marks.length > 0) {
+                const attValues = s.marks.map(m => m.attendance != null ? m.attendance : 0);
+                const attAvg = Math.round(attValues.reduce((a, b) => a + b, 0) / attValues.length);
+                attDisplay = attAvg + '%';
+            } else if (s.attendance != null && s.attendance !== 0) {
+                attDisplay = s.attendance + '%';
+            }
+            return `<tr>
+                <td>${i + 1}</td>
+                <td><strong>${s.name}</strong></td>
+                <td>${s.roll_number}</td>
+                <td>${s.department}</td>
+                <td>${s.semester}</td>
+                <td>${attDisplay}</td>
+                <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${subjectList}">${subjectList}</td>
+                <td>${avg}%</td>
+                <td>${statusBadge(avg)}</td>
+            </tr>`;
+        }).join('');
+    }
+
+    function filterTable() {
+        const q = document.getElementById('filter-input').value.toLowerCase();
+        const filtered = allStudents.filter(s => s.name.toLowerCase().includes(q));
+        renderTable(filtered);
+    }
+
+    document.addEventListener('DOMContentLoaded', loadStudents);
+    </script>
+</body>
+</html>

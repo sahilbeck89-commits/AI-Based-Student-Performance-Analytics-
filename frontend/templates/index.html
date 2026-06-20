@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Performance Analysis System — Track marks, attendance, and get personalized recommendations.">
+    <title>Student Performance Analysis System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- ── Flash Messages ── -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages">
+        {% for category, message in messages %}
+        <div class="flash-msg {{ category }}">{{ message }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <!-- ── Navbar ── -->
+    <nav class="navbar">
+        <a href="/" class="logo">
+            <span>📊</span> SPAS
+        </a>
+        <div class="nav-links">
+            <a href="/" class="active">Home</a>
+            {% if session.get('student_id') %}
+                <a href="/dashboard">Dashboard</a>
+                <a href="/analysis">Analysis</a>
+                <a href="/recommendation">Recommendations</a>
+                <a href="/students">All Students</a>
+                <a href="/objectives">Objectives</a>
+                <a href="/logout" class="btn btn-sm btn-outline">Logout</a>
+            {% else %}
+                <a href="/login" class="btn btn-sm btn-outline">Login</a>
+                <a href="/register" class="btn btn-sm btn-primary">Register</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <!-- ── Hero Section ── -->
+    <section class="hero">
+        <div class="container">
+            <h1>Student Performance<br>Analysis System</h1>
+            <p>Track your academic progress, analyze strengths and weaknesses, and get personalized recommendations to improve your performance.</p>
+            <div class="hero-buttons">
+                {% if session.get('student_id') %}
+                    <a href="/dashboard" class="btn btn-primary">Go to Dashboard</a>
+                {% else %}
+                    <a href="/register" class="btn btn-primary">Get Started</a>
+                    <a href="/login" class="btn btn-outline">Login</a>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Features Section ── -->
+    <section class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Performance Tracking</h3>
+                    <p>View your marks across all subjects with visual charts and progress bars.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📅</div>
+                    <h3>Attendance Monitor</h3>
+                    <p>Track your attendance percentage and get alerts for low attendance subjects.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Detailed Analysis</h3>
+                    <p>Identify your strong and weak subjects with comprehensive analysis tools.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>Smart Recommendations</h3>
+                    <p>Get personalized suggestions to improve your academic performance.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📄</div>
+                    <h3>Download Reports</h3>
+                    <p>Generate and download your complete performance report anytime.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Secure & Private</h3>
+                    <p>Your data is stored securely with session-based authentication.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📂</div>
+                    <h3>CSV Upload & Analysis</h3>
+                    <p>Upload any CSV file and get instant AI-powered dashboards, predictions, and real-time insights.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Footer ── -->
+    <footer class="footer">
+        <p>&copy; 2026 Student Performance Analysis System. All rights reserved.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

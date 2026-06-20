@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis — SPAS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+    <!-- ── Flash Messages ── -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages">
+        {% for category, message in messages %}
+        <div class="flash-msg {{ category }}">{{ message }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <div class="dashboard-layout">
+
+        <!-- ── Sidebar ── -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">📊 SPAS</div>
+            <nav class="sidebar-nav">
+                <a href="/">🏠 Home</a>
+                <a href="/dashboard">📋 Dashboard</a>
+                <a href="/analysis" class="active">🔍 Analysis</a>
+                <a href="/recommendation">💡 Recommendations</a>
+                <a href="/students">👥 All Students</a>
+                <a href="/objectives">🎯 Objectives</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="/logout" class="btn btn-danger btn-sm" style="width:100%">🚪 Logout</a>
+            </div>
+        </aside>
+
+        <!-- ── Main Content ── -->
+        <main class="main-content">
+
+            <div class="page-header">
+                <h1>Performance Analysis</h1>
+                <div class="search-bar">
+                    <button class="btn btn-primary btn-sm" onclick="openMarksModal()">➕ Add Marks</button>
+                    <button class="btn btn-outline btn-sm" onclick="downloadReport()">📄 Download Report</button>
+                </div>
+            </div>
+
+            <!-- AI Prediction -->
+            <div class="card" style="background:linear-gradient(135deg, rgba(167,139,250,0.1), rgba(52,211,153,0.1)); border:1px solid var(--clr-accent)">
+                <div class="card-title">🤖 AI Performance Prediction</div>
+                <div id="ai-prediction-result" style="text-align:center; padding:10px 0">
+                    <p style="color:var(--text-muted)">Analyzing your data with AI...</p>
+                </div>
+            </div>
+
+            <!-- Overall Performance -->
+            <div class="card">
+                <div class="card-title">🎯 Overall Performance</div>
+                <div id="overall-performance">
+                    <p style="color:var(--text-muted)">Loading...</p>
+                </div>
+            </div>
+
+            <!-- Analysis Grid: Strong & Weak Subjects -->
+            <div class="analysis-grid">
+                <div class="card">
+                    <div class="card-title">💪 Strong Subjects (≥ 75%)</div>
+                    <div id="strong-subjects" class="subject-list">
+                        <p style="color:var(--text-muted)">Loading...</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">⚠️ Weak Subjects (&lt; 60%)</div>
+                    <div id="weak-subjects" class="subject-list">
+                        <p style="color:var(--text-muted)">Loading...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Radar Chart -->
+            <div class="card">
+                <div class="card-title">🕸️ Subject Radar</div>
+                <div class="chart-container" style="max-width:500px;margin:0 auto">
+                    <canvas id="radarChart"></canvas>
+                </div>
+            </div>
+
+
+
+        </main>
+    </div>
+
+    <!-- ── Add Marks Modal ── -->
+    <div id="marksModal" class="modal">
+        <div class="modal-content card">
+            <span class="close-modal" onclick="closeMarksModal()">&times;</span>
+            <h2 style="margin-bottom:16px">Add / Update Marks</h2>
+            <form id="marksForm" onsubmit="submitMarksForm(event)">
+                <div class="form-group">
+                    <label for="subject_input">Subject Name</label>
+                    <input type="text" id="subject_input" class="form-control" placeholder="e.g. Physics" required>
+                </div>
+                <div class="form-group">
+                    <label for="marks_input">Marks Obtained</label>
+                    <input type="number" id="marks_input" class="form-control" placeholder="e.g. 85" min="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="max_marks_input">Maximum Marks</label>
+                    <input type="number" id="max_marks_input" class="form-control" placeholder="e.g. 100" min="1" value="100" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width:100%; margin-top:10px">Save Marks</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', loadAnalysis);
+    </script>
+</body>
+</html>

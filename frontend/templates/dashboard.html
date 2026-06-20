@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard — SPAS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+    <!-- ── Flash Messages ── -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages">
+        {% for category, message in messages %}
+        <div class="flash-msg {{ category }}">{{ message }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <div class="dashboard-layout">
+
+        <!-- ── Sidebar ── -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">📊 SPAS</div>
+            <nav class="sidebar-nav">
+                <a href="/">🏠 Home</a>
+                <a href="/dashboard" class="active">📋 Dashboard</a>
+                <a href="/analysis">🔍 Analysis</a>
+                <a href="/recommendation">💡 Recommendations</a>
+                <a href="/students">👥 All Students</a>
+                <a href="/objectives">🎯 Objectives</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="/logout" class="btn btn-danger btn-sm" style="width:100%">🚪 Logout</a>
+            </div>
+        </aside>
+
+        <!-- ── Main Content ── -->
+        <main class="main-content">
+
+            <!-- Page Header with Search -->
+            <div class="page-header">
+                <h1>Dashboard</h1>
+                <div class="header-actions">
+                    <select id="dataset-switcher" class="form-control" style="width:220px;padding:8px 12px;font-size:.85rem;display:none">
+                        <option value="">Select a dataset...</option>
+                    </select>
+                    <button class="btn btn-primary btn-sm" onclick="openMarksModal()">➕ Add Marks</button>
+                    <input type="text" id="search-input" placeholder="Search student by name..."
+                           onkeyup="if(event.key==='Enter') searchStudents()">
+                    <button class="btn btn-outline btn-sm" onclick="searchStudents()">Search</button>
+                    <button class="btn btn-outline btn-sm" onclick="downloadReport()">📄 Report</button>
+                </div>
+            </div>
+
+            <!-- Search Results (hidden by default) -->
+            <div id="search-results" class="card" style="display:none"></div>
+
+            <!-- Profile Card -->
+            <div id="profile-section" class="card">
+                <p style="color:var(--text-muted)">Loading profile...</p>
+            </div>
+
+            <!-- Stat Cards -->
+            <div class="stats-row">
+                <div class="stat-card" id="stat-avg">
+                    <div class="stat-icon blue">📊</div>
+                    <div class="stat-info">
+                        <h3>—</h3>
+                        <p>Average Marks</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" id="stat-attendance">
+                    <div class="stat-icon green">📅</div>
+                    <div class="stat-info">
+                        <h3>—</h3>
+                        <p>Attendance</p>
+                    </div>
+                </div>
+
+                <div class="stat-card" id="stat-status">
+                    <div class="stat-icon amber">⭐</div>
+                    <div class="stat-info">
+                        <h3>—</h3>
+                        <p>Performance</p>
+                    </div>
+                </div>
+                <div class="stat-card" id="stat-highest">
+                    <div class="stat-icon red">🏆</div>
+                    <div class="stat-info">
+                        <h3>—</h3>
+                        <p>Highest Mark</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row 1: Performance -->
+            <div class="chart-row">
+                <div class="card">
+                    <div class="card-title">📊 Subject-wise Marks</div>
+                    <div class="chart-container">
+                        <canvas id="marksChart"></canvas>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">📅 Subject-wise Attendance</div>
+                    <div class="chart-container">
+                        <canvas id="subjAttendanceChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row 2: Overview -->
+            <div class="chart-row">
+                <div class="card">
+                    <div class="card-title">📉 Overall Attendance</div>
+                    <div class="chart-container" style="position:relative">
+                        <canvas id="attendanceChart"></canvas>
+                        <div id="attendance-text" style="position:absolute; top:55%; left:50%; transform:translate(-50%,-50%); font-size:1.5rem; font-weight:bold; color:var(--clr-accent)">--%</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">⏱️ Self Study Hours</div>
+                    <div class="chart-container">
+                        <canvas id="studyChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marks Table -->
+            <div class="card">
+                <div class="card-title">📝 Subject Marks</div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Subject</th>
+                            <th>Marks (Study)</th>
+                            <th>Progress</th>
+                            <th>Score %</th>
+                            <th>Attendance %</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="marks-tbody">
+                        <tr><td colspan="5" style="text-align:center;color:var(--text-muted)">Loading...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- ══════════════════════════════════════════════ -->
+            <!-- CSV Upload & Real-Time Analytics Section      -->
+            <!-- ══════════════════════════════════════════════ -->
+
+            <!-- Upload Section -->
+            <div class="card" id="upload-section" style="margin-top:24px">
+                <div class="card-title">📂 Upload CSV for Real-Time Analysis</div>
+                <div class="upload-dropzone" id="dropzone">
+                    <div class="dropzone-content">
+                        <div class="dropzone-icon">📄</div>
+                        <p class="dropzone-text">Drag & drop your CSV file here</p>
+                        <p class="dropzone-hint">or click to browse • Supports 100-500+ student records</p>
+                        <p class="dropzone-hint">Columns auto-detected: Name, USN, Subject, Marks, Attendance, Grade</p>
+                        <input type="file" id="csv-file-input" accept=".csv" style="display:none">
+                        <button class="btn btn-primary btn-sm" onclick="document.getElementById('csv-file-input').click()" style="margin-top:14px">Choose File</button>
+                    </div>
+                </div>
+                <div class="upload-progress" id="upload-progress" style="display:none">
+                    <div class="progress-bar-wrap" style="max-width:100%;height:12px;margin:14px 0">
+                        <div class="progress-bar-fill" id="upload-bar" style="width:0%;transition:width .5s"></div>
+                    </div>
+                    <p id="upload-status" style="color:var(--clr-muted);font-size:.85rem;text-align:center">Uploading...</p>
+                </div>
+            </div>
+
+            <!-- Parse Warnings -->
+            <div class="card" id="warnings-section" style="display:none">
+                <div class="card-title">⚠️ Parse Warnings</div>
+                <div id="warnings-list"></div>
+            </div>
+
+            <!-- Analytics Dashboard (shown after upload) -->
+            <div id="analytics-dashboard" style="display:none">
+                <div class="card" id="summary-card">
+                    <div class="card-title">📋 Upload Summary</div>
+                    <div id="summary-content"></div>
+                </div>
+                <div class="stats-row" id="class-stats-row">
+                    <div class="stat-card" id="stat-total-students"><div class="stat-icon blue">👥</div><div class="stat-info"><h3>—</h3><p>Total Students</p></div></div>
+                    <div class="stat-card" id="stat-avg-marks"><div class="stat-icon green">📊</div><div class="stat-info"><h3>—</h3><p>Avg Marks</p></div></div>
+                    <div class="stat-card" id="stat-avg-att"><div class="stat-icon amber">📅</div><div class="stat-info"><h3>—</h3><p>Avg Attendance</p></div></div>
+                    <div class="stat-card" id="stat-pass-rate"><div class="stat-icon red">🎯</div><div class="stat-info"><h3>—</h3><p>Pass Rate</p></div></div>
+                </div>
+                <div class="chart-row">
+                    <div class="card"><div class="card-title">📊 Subject-wise Average Marks</div><div class="chart-container"><canvas id="subjectBarChart"></canvas></div></div>
+                    <div class="card"><div class="card-title">📅 Subject-wise Attendance</div><div class="chart-container"><canvas id="subjectAttChart"></canvas></div></div>
+                </div>
+                <div class="chart-row">
+                    <div class="card"><div class="card-title">📈 Attendance vs Marks Correlation</div><div class="chart-container"><canvas id="correlationChart"></canvas></div></div>
+                    <div class="card"><div class="card-title">📝 Grade Distribution</div><div class="chart-container"><canvas id="gradeChart"></canvas></div></div>
+                </div>
+                <div class="card"><div class="card-title">🛡️ Student Risk Assessment</div><div class="chart-container" style="height:200px"><canvas id="riskChart"></canvas></div></div>
+                <div class="card"><div class="card-title">🏆 Top Performers</div><div id="toppers-list" class="toppers-grid"></div></div>
+                <div class="card"><div class="card-title">⚠️ Students Needing Attention</div><div id="weak-list"></div></div>
+                <div class="card"><div class="card-title">💡 AI Recommendations</div><div id="recs-list"></div></div>
+                <div class="card">
+                    <div class="card-title" style="justify-content:space-between">
+                        <span>📝 Uploaded Student Data</span>
+                        <div style="display:flex;gap:8px;align-items:center">
+                            <input type="text" id="table-search" placeholder="Search..." class="form-control" style="width:200px;padding:6px 12px;font-size:.85rem" oninput="filterDataTable()">
+                            <button class="btn btn-outline btn-sm" onclick="exportDataset()">📥 Export CSV</button>
+                        </div>
+                    </div>
+                    <div style="overflow-x:auto">
+                        <table class="data-table" id="data-table"><thead><tr id="table-head"></tr></thead><tbody id="table-body"></tbody></table>
+                    </div>
+                    <div id="table-pagination" class="pagination-bar"></div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- ── Add Marks Modal ── -->
+    <div id="marksModal" class="modal">
+        <div class="modal-content card">
+            <span class="close-modal" onclick="closeMarksModal()">&times;</span>
+            <h2 style="margin-bottom:16px">Add / Update Marks</h2>
+            <form id="marksForm" onsubmit="submitMarksForm(event)">
+                <div class="form-group">
+                    <label for="subject_input">Subject Name</label>
+                    <input type="text" id="subject_input" class="form-control" placeholder="e.g. Physics" required>
+                </div>
+                <div class="form-group">
+                    <label for="marks_input">Marks Obtained</label>
+                    <input type="number" id="marks_input" class="form-control" placeholder="e.g. 85" min="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="max_marks_input">Maximum Marks</label>
+                    <input type="number" id="max_marks_input" class="form-control" placeholder="e.g. 100" min="1" value="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="study_hours_input">Study Hours</label>
+                    <input type="number" id="study_hours_input" class="form-control" placeholder="e.g. 5" min="0" value="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject_attendance_input">Attendance (%)</label>
+                    <input type="number" id="subject_attendance_input" class="form-control" placeholder="e.g. 85" min="0" max="100" value="100" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width:100%; margin-top:10px">Save Marks</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/student_analytics.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', loadDashboard);
+    </script>
+</body>
+</html>

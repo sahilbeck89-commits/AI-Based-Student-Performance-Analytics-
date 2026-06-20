@@ -1,0 +1,1801 @@
+student_id,student_name,subject,marks,max_marks,attendance,study_hours,grade
+STU0001,Zara Kumar,Mathematics,67,100,80,4,B
+STU0001,Zara Kumar,Physics,54,100,62,5,C
+STU0001,Zara Kumar,Chemistry,36,100,68,2,F
+STU0001,Zara Kumar,Computer Science,64,100,68,3,B
+STU0001,Zara Kumar,English,73,100,68,2,B+
+STU0001,Zara Kumar,Statistics,75,100,82,5,B+
+STU0002,Kavita Rao,Mathematics,82,100,75,7,A
+STU0002,Kavita Rao,Physics,88,100,100,6,A
+STU0002,Kavita Rao,Chemistry,79,100,94,6,B+
+STU0002,Kavita Rao,Computer Science,83,100,83,5,A
+STU0002,Kavita Rao,English,82,100,90,8,A
+STU0002,Kavita Rao,Statistics,97,100,86,3,A+
+STU0003,Chetan Choudhary,Mathematics,47,100,68,2,D
+STU0003,Chetan Choudhary,Physics,46,100,65,4,D
+STU0003,Chetan Choudhary,Chemistry,11,100,69,1,F
+STU0003,Chetan Choudhary,Computer Science,34,100,50,1,F
+STU0003,Chetan Choudhary,English,49,100,65,5,D
+STU0003,Chetan Choudhary,Statistics,17,100,51,0,F
+STU0004,Indira Kumar,Mathematics,63,100,74,1,B
+STU0004,Indira Kumar,Physics,40,100,56,0,D
+STU0004,Indira Kumar,Chemistry,41,100,52,2,D
+STU0004,Indira Kumar,Computer Science,37,100,64,2,F
+STU0004,Indira Kumar,English,54,100,57,4,C
+STU0004,Indira Kumar,Statistics,26,100,53,3,F
+STU0005,Omkar Das,Mathematics,71,100,66,3,B+
+STU0005,Omkar Das,Physics,51,100,92,4,C
+STU0005,Omkar Das,Chemistry,57,100,82,2,C
+STU0005,Omkar Das,Computer Science,82,100,60,5,A
+STU0005,Omkar Das,English,56,100,72,5,C
+STU0005,Omkar Das,Statistics,66,100,84,1,B
+STU0006,Omkar Singh,Mathematics,43,100,73,3,D
+STU0006,Omkar Singh,Physics,53,100,51,4,C
+STU0006,Omkar Singh,Chemistry,34,100,42,0,F
+STU0006,Omkar Singh,Computer Science,50,100,78,1,C
+STU0006,Omkar Singh,English,13,100,68,3,F
+STU0006,Omkar Singh,Statistics,44,100,54,0,D
+STU0007,Ekta Sharma,Mathematics,90,100,83,4,A+
+STU0007,Ekta Sharma,Physics,100,100,92,5,A+
+STU0007,Ekta Sharma,Chemistry,77,100,100,7,B+
+STU0007,Ekta Sharma,Computer Science,77,100,88,5,B+
+STU0007,Ekta Sharma,English,82,100,95,7,A
+STU0007,Ekta Sharma,Statistics,85,100,84,8,A
+STU0008,Rahul Agarwal,Mathematics,78,100,78,5,B+
+STU0008,Rahul Agarwal,Physics,70,100,92,8,B+
+STU0008,Rahul Agarwal,Chemistry,81,100,98,7,A
+STU0008,Rahul Agarwal,Computer Science,90,100,98,6,A+
+STU0008,Rahul Agarwal,English,79,100,75,7,B+
+STU0008,Rahul Agarwal,Statistics,95,100,83,6,A+
+STU0009,Wahida Das,Mathematics,49,100,76,2,D
+STU0009,Wahida Das,Physics,52,100,75,1,C
+STU0009,Wahida Das,Chemistry,64,100,75,5,B
+STU0009,Wahida Das,Computer Science,70,100,51,2,B+
+STU0009,Wahida Das,English,54,100,78,0,C
+STU0009,Wahida Das,Statistics,53,100,66,3,C
+STU0010,Aishwarya Iyer,Mathematics,43,100,48,2,D
+STU0010,Aishwarya Iyer,Physics,53,100,61,2,C
+STU0010,Aishwarya Iyer,Chemistry,14,100,64,1,F
+STU0010,Aishwarya Iyer,Computer Science,26,100,64,1,F
+STU0010,Aishwarya Iyer,English,39,100,65,0,F
+STU0010,Aishwarya Iyer,Statistics,27,100,44,3,F
+STU0011,Ekta Menon,Mathematics,52,100,50,2,C
+STU0011,Ekta Menon,Physics,44,100,58,3,D
+STU0011,Ekta Menon,Chemistry,52,100,58,0,C
+STU0011,Ekta Menon,Computer Science,40,100,56,0,D
+STU0011,Ekta Menon,English,20,100,55,0,F
+STU0011,Ekta Menon,Statistics,32,100,64,3,F
+STU0012,Divya Kumar,Mathematics,82,100,96,6,A
+STU0012,Divya Kumar,Physics,80,100,75,6,A
+STU0012,Divya Kumar,Chemistry,73,100,98,6,B+
+STU0012,Divya Kumar,Computer Science,87,100,88,7,A
+STU0012,Divya Kumar,English,80,100,87,3,A
+STU0012,Divya Kumar,Statistics,81,100,79,3,A
+STU0013,Farida D'Souza,Mathematics,60,100,55,4,B
+STU0013,Farida D'Souza,Physics,68,100,74,1,B
+STU0013,Farida D'Souza,Chemistry,76,100,91,3,B+
+STU0013,Farida D'Souza,Computer Science,47,100,74,1,D
+STU0013,Farida D'Souza,English,61,100,76,2,B
+STU0013,Farida D'Souza,Statistics,78,100,76,4,B+
+STU0014,Hina Kapoor,Mathematics,83,100,70,5,A
+STU0014,Hina Kapoor,Physics,64,100,72,3,B
+STU0014,Hina Kapoor,Chemistry,66,100,66,1,B
+STU0014,Hina Kapoor,Computer Science,71,100,76,3,B+
+STU0014,Hina Kapoor,English,74,100,55,5,B+
+STU0014,Hina Kapoor,Statistics,46,100,67,4,D
+STU0015,Chirag Menon,Mathematics,61,100,79,6,B
+STU0015,Chirag Menon,Physics,55,100,77,2,C
+STU0015,Chirag Menon,Chemistry,73,100,81,5,B+
+STU0015,Chirag Menon,Computer Science,68,100,67,3,B
+STU0015,Chirag Menon,English,58,100,81,4,C
+STU0015,Chirag Menon,Statistics,61,100,79,2,B
+STU0016,Jayant Kapoor,Mathematics,87,100,76,3,A
+STU0016,Jayant Kapoor,Physics,75,100,52,3,B+
+STU0016,Jayant Kapoor,Chemistry,66,100,86,5,B
+STU0016,Jayant Kapoor,Computer Science,63,100,70,3,B
+STU0016,Jayant Kapoor,English,52,100,69,3,C
+STU0016,Jayant Kapoor,Statistics,62,100,80,7,B
+STU0017,Lakshmi Tiwari,Mathematics,73,100,73,2,B+
+STU0017,Lakshmi Tiwari,Physics,57,100,88,4,C
+STU0017,Lakshmi Tiwari,Chemistry,35,100,73,4,F
+STU0017,Lakshmi Tiwari,Computer Science,63,100,66,3,B
+STU0017,Lakshmi Tiwari,English,82,100,90,5,A
+STU0017,Lakshmi Tiwari,Statistics,71,100,75,5,B+
+STU0018,Nandita Ansari,Mathematics,31,100,60,2,F
+STU0018,Nandita Ansari,Physics,32,100,57,0,F
+STU0018,Nandita Ansari,Chemistry,45,100,51,0,D
+STU0018,Nandita Ansari,Computer Science,22,100,37,1,F
+STU0018,Nandita Ansari,English,30,100,56,0,F
+STU0018,Nandita Ansari,Statistics,36,100,47,2,F
+STU0019,Eshan Joshi,Mathematics,65,100,65,4,B
+STU0019,Eshan Joshi,Physics,83,100,76,4,A
+STU0019,Eshan Joshi,Chemistry,71,100,76,5,B+
+STU0019,Eshan Joshi,Computer Science,67,100,71,7,B
+STU0019,Eshan Joshi,English,63,100,87,3,B
+STU0019,Eshan Joshi,Statistics,82,100,80,4,A
+STU0020,Jaya Ansari,Mathematics,63,100,84,4,B
+STU0020,Jaya Ansari,Physics,63,100,75,6,B
+STU0020,Jaya Ansari,Chemistry,69,100,65,3,B
+STU0020,Jaya Ansari,Computer Science,72,100,65,5,B+
+STU0020,Jaya Ansari,English,64,100,71,4,B
+STU0020,Jaya Ansari,Statistics,71,100,61,2,B+
+STU0021,Eshan Tiwari,Mathematics,90,100,97,4,A+
+STU0021,Eshan Tiwari,Physics,67,100,82,7,B
+STU0021,Eshan Tiwari,Chemistry,93,100,78,6,A+
+STU0021,Eshan Tiwari,Computer Science,81,100,85,3,A
+STU0021,Eshan Tiwari,English,84,100,97,6,A
+STU0021,Eshan Tiwari,Statistics,82,100,87,6,A
+STU0022,Tara Choudhary,Mathematics,68,100,88,1,B
+STU0022,Tara Choudhary,Physics,61,100,72,6,B
+STU0022,Tara Choudhary,Chemistry,65,100,75,0,B
+STU0022,Tara Choudhary,Computer Science,65,100,77,2,B
+STU0022,Tara Choudhary,English,69,100,57,2,B
+STU0022,Tara Choudhary,Statistics,63,100,66,0,B
+STU0023,Gaurav Saxena,Mathematics,64,100,70,5,B
+STU0023,Gaurav Saxena,Physics,58,100,40,4,C
+STU0023,Gaurav Saxena,Chemistry,66,100,75,2,B
+STU0023,Gaurav Saxena,Computer Science,57,100,78,3,C
+STU0023,Gaurav Saxena,English,77,100,64,3,B+
+STU0023,Gaurav Saxena,Statistics,62,100,76,2,B
+STU0024,Rahul Tiwari,Mathematics,54,100,58,3,C
+STU0024,Rahul Tiwari,Physics,35,100,67,0,F
+STU0024,Rahul Tiwari,Chemistry,21,100,24,1,F
+STU0024,Rahul Tiwari,Computer Science,33,100,67,0,F
+STU0024,Rahul Tiwari,English,35,100,60,1,F
+STU0024,Rahul Tiwari,Statistics,56,100,57,6,C
+STU0025,Karthik Malhotra,Mathematics,78,100,85,4,B+
+STU0025,Karthik Malhotra,Physics,55,100,57,5,C
+STU0025,Karthik Malhotra,Chemistry,57,100,69,6,C
+STU0025,Karthik Malhotra,Computer Science,63,100,70,5,B
+STU0025,Karthik Malhotra,English,46,100,73,3,D
+STU0025,Karthik Malhotra,Statistics,65,100,71,4,B
+STU0026,Gayatri Joshi,Mathematics,60,100,71,1,B
+STU0026,Gayatri Joshi,Physics,56,100,65,3,C
+STU0026,Gayatri Joshi,Chemistry,66,100,64,4,B
+STU0026,Gayatri Joshi,Computer Science,62,100,83,4,B
+STU0026,Gayatri Joshi,English,70,100,77,6,B+
+STU0026,Gayatri Joshi,Statistics,55,100,72,4,C
+STU0027,Vikram Verma,Mathematics,71,100,85,3,B+
+STU0027,Vikram Verma,Physics,59,100,75,4,C
+STU0027,Vikram Verma,Chemistry,69,100,66,3,B
+STU0027,Vikram Verma,Computer Science,67,100,69,3,B
+STU0027,Vikram Verma,English,53,100,71,3,C
+STU0027,Vikram Verma,Statistics,66,100,63,6,B
+STU0028,Shreya Saxena,Mathematics,69,100,91,2,B
+STU0028,Shreya Saxena,Physics,62,100,68,4,B
+STU0028,Shreya Saxena,Chemistry,59,100,79,1,C
+STU0028,Shreya Saxena,Computer Science,61,100,73,4,B
+STU0028,Shreya Saxena,English,58,100,70,3,C
+STU0028,Shreya Saxena,Statistics,65,100,67,6,B
+STU0029,Suresh Roy,Mathematics,46,100,68,4,D
+STU0029,Suresh Roy,Physics,58,100,71,3,C
+STU0029,Suresh Roy,Chemistry,74,100,68,3,B+
+STU0029,Suresh Roy,Computer Science,61,100,66,2,B
+STU0029,Suresh Roy,English,50,100,79,2,C
+STU0029,Suresh Roy,Statistics,75,100,78,2,B+
+STU0030,Nandita Malhotra,Mathematics,80,100,79,5,A
+STU0030,Nandita Malhotra,Physics,58,100,71,5,C
+STU0030,Nandita Malhotra,Chemistry,76,100,84,3,B+
+STU0030,Nandita Malhotra,Computer Science,91,100,69,4,A+
+STU0030,Nandita Malhotra,English,47,100,49,6,D
+STU0030,Nandita Malhotra,Statistics,87,100,64,1,A
+STU0031,Bhavna Sharma,Mathematics,63,100,81,3,B
+STU0031,Bhavna Sharma,Physics,63,100,68,6,B
+STU0031,Bhavna Sharma,Chemistry,89,100,88,5,A
+STU0031,Bhavna Sharma,Computer Science,66,100,70,4,B
+STU0031,Bhavna Sharma,English,70,100,68,3,B+
+STU0031,Bhavna Sharma,Statistics,63,100,57,4,B
+STU0032,Waqar Sharma,Mathematics,71,100,53,0,B+
+STU0032,Waqar Sharma,Physics,58,100,61,1,C
+STU0032,Waqar Sharma,Chemistry,50,100,43,3,C
+STU0032,Waqar Sharma,Computer Science,33,100,47,0,F
+STU0032,Waqar Sharma,English,17,100,58,2,F
+STU0032,Waqar Sharma,Statistics,44,100,63,6,D
+STU0033,Brinda Khan,Mathematics,70,100,53,0,B+
+STU0033,Brinda Khan,Physics,36,100,44,0,F
+STU0033,Brinda Khan,Chemistry,39,100,55,2,F
+STU0033,Brinda Khan,Computer Science,41,100,58,3,D
+STU0033,Brinda Khan,English,23,100,70,2,F
+STU0033,Brinda Khan,Statistics,28,100,45,4,F
+STU0034,Tanmay Saxena,Mathematics,78,100,100,5,B+
+STU0034,Tanmay Saxena,Physics,83,100,77,7,A
+STU0034,Tanmay Saxena,Chemistry,87,100,96,6,A
+STU0034,Tanmay Saxena,Computer Science,79,100,64,8,B+
+STU0034,Tanmay Saxena,English,90,100,87,6,A+
+STU0034,Tanmay Saxena,Statistics,85,100,100,5,A
+STU0035,Omkar Khan,Mathematics,55,100,46,3,C
+STU0035,Omkar Khan,Physics,41,100,59,3,D
+STU0035,Omkar Khan,Chemistry,28,100,64,3,F
+STU0035,Omkar Khan,Computer Science,30,100,60,2,F
+STU0035,Omkar Khan,English,29,100,59,3,F
+STU0035,Omkar Khan,Statistics,23,100,57,1,F
+STU0036,Kavita Kapoor,Mathematics,75,100,77,3,B+
+STU0036,Kavita Kapoor,Physics,57,100,80,3,C
+STU0036,Kavita Kapoor,Chemistry,77,100,84,6,B+
+STU0036,Kavita Kapoor,Computer Science,62,100,65,3,B
+STU0036,Kavita Kapoor,English,64,100,77,4,B
+STU0036,Kavita Kapoor,Statistics,80,100,74,8,A
+STU0037,Karthik Joshi,Mathematics,72,100,72,4,B+
+STU0037,Karthik Joshi,Physics,66,100,87,4,B
+STU0037,Karthik Joshi,Chemistry,49,100,85,3,D
+STU0037,Karthik Joshi,Computer Science,74,100,80,4,B+
+STU0037,Karthik Joshi,English,47,100,69,2,D
+STU0037,Karthik Joshi,Statistics,54,100,67,6,C
+STU0038,Karthik Choudhary,Mathematics,26,100,59,4,F
+STU0038,Karthik Choudhary,Physics,10,100,69,1,F
+STU0038,Karthik Choudhary,Chemistry,23,100,61,0,F
+STU0038,Karthik Choudhary,Computer Science,33,100,47,2,F
+STU0038,Karthik Choudhary,English,42,100,59,3,D
+STU0038,Karthik Choudhary,Statistics,29,100,61,3,F
+STU0039,Aarav Kumar,Mathematics,85,100,67,3,A
+STU0039,Aarav Kumar,Physics,57,100,78,0,C
+STU0039,Aarav Kumar,Chemistry,35,100,66,8,F
+STU0039,Aarav Kumar,Computer Science,48,100,79,4,D
+STU0039,Aarav Kumar,English,63,100,68,4,B
+STU0039,Aarav Kumar,Statistics,84,100,89,4,A
+STU0040,Divya Reddy,Mathematics,49,100,59,1,D
+STU0040,Divya Reddy,Physics,34,100,56,1,F
+STU0040,Divya Reddy,Chemistry,24,100,60,2,F
+STU0040,Divya Reddy,Computer Science,28,100,64,1,F
+STU0040,Divya Reddy,English,55,100,59,3,C
+STU0040,Divya Reddy,Statistics,70,100,68,0,B+
+STU0041,Nandita Hussain,Mathematics,49,100,53,2,D
+STU0041,Nandita Hussain,Physics,27,100,63,4,F
+STU0041,Nandita Hussain,Chemistry,34,100,65,0,F
+STU0041,Nandita Hussain,Computer Science,24,100,60,2,F
+STU0041,Nandita Hussain,English,34,100,57,4,F
+STU0041,Nandita Hussain,Statistics,60,100,73,1,B
+STU0042,Xena Ansari,Mathematics,37,100,52,0,F
+STU0042,Xena Ansari,Physics,54,100,46,0,C
+STU0042,Xena Ansari,Chemistry,65,100,47,3,B
+STU0042,Xena Ansari,Computer Science,35,100,67,4,F
+STU0042,Xena Ansari,English,26,100,41,2,F
+STU0042,Xena Ansari,Statistics,38,100,56,1,F
+STU0043,Farida Agarwal,Mathematics,50,100,90,6,C
+STU0043,Farida Agarwal,Physics,60,100,79,4,B
+STU0043,Farida Agarwal,Chemistry,63,100,86,5,B
+STU0043,Farida Agarwal,Computer Science,79,100,79,3,B+
+STU0043,Farida Agarwal,English,53,100,82,4,C
+STU0043,Farida Agarwal,Statistics,56,100,69,1,C
+STU0044,Rahul Patel,Mathematics,69,100,81,3,B
+STU0044,Rahul Patel,Physics,69,100,83,5,B
+STU0044,Rahul Patel,Chemistry,56,100,70,4,C
+STU0044,Rahul Patel,Computer Science,62,100,73,7,B
+STU0044,Rahul Patel,English,66,100,70,3,B
+STU0044,Rahul Patel,Statistics,63,100,68,3,B
+STU0045,Farhan Kumar,Mathematics,86,100,73,4,A
+STU0045,Farhan Kumar,Physics,57,100,90,2,C
+STU0045,Farhan Kumar,Chemistry,52,100,76,4,C
+STU0045,Farhan Kumar,Computer Science,58,100,93,2,C
+STU0045,Farhan Kumar,English,63,100,76,4,B
+STU0045,Farhan Kumar,Statistics,74,100,58,4,B+
+STU0046,Gaurav Sharma,Mathematics,66,100,74,4,B
+STU0046,Gaurav Sharma,Physics,86,100,70,4,A
+STU0046,Gaurav Sharma,Chemistry,68,100,80,4,B
+STU0046,Gaurav Sharma,Computer Science,67,100,93,4,B
+STU0046,Gaurav Sharma,English,61,100,94,2,B
+STU0046,Gaurav Sharma,Statistics,72,100,61,4,B+
+STU0047,Ekta Nair,Mathematics,61,100,77,4,B
+STU0047,Ekta Nair,Physics,73,100,79,2,B+
+STU0047,Ekta Nair,Chemistry,52,100,62,5,C
+STU0047,Ekta Nair,Computer Science,68,100,73,2,B
+STU0047,Ekta Nair,English,54,100,75,1,C
+STU0047,Ekta Nair,Statistics,57,100,78,4,C
+STU0048,Hina Hussain,Mathematics,42,100,63,1,D
+STU0048,Hina Hussain,Physics,42,100,74,0,D
+STU0048,Hina Hussain,Chemistry,49,100,61,3,D
+STU0048,Hina Hussain,Computer Science,19,100,43,1,F
+STU0048,Hina Hussain,English,22,100,62,0,F
+STU0048,Hina Hussain,Statistics,24,100,69,1,F
+STU0049,Ishaan Sharma,Mathematics,57,100,55,4,C
+STU0049,Ishaan Sharma,Physics,30,100,58,0,F
+STU0049,Ishaan Sharma,Chemistry,34,100,54,3,F
+STU0049,Ishaan Sharma,Computer Science,61,100,54,1,B
+STU0049,Ishaan Sharma,English,42,100,78,3,D
+STU0049,Ishaan Sharma,Statistics,53,100,58,0,C
+STU0050,Bhavna Singh,Mathematics,52,100,55,3,C
+STU0050,Bhavna Singh,Physics,61,100,77,5,B
+STU0050,Bhavna Singh,Chemistry,63,100,79,5,B
+STU0050,Bhavna Singh,Computer Science,81,100,62,6,A
+STU0050,Bhavna Singh,English,74,100,71,3,B+
+STU0050,Bhavna Singh,Statistics,56,100,72,5,C
+STU0051,Gayatri Menon,Mathematics,88,100,75,6,A
+STU0051,Gayatri Menon,Physics,89,100,88,9,A
+STU0051,Gayatri Menon,Chemistry,88,100,85,4,A
+STU0051,Gayatri Menon,Computer Science,76,100,81,5,B+
+STU0051,Gayatri Menon,English,85,100,88,8,A
+STU0051,Gayatri Menon,Statistics,80,100,84,5,A
+STU0052,Farida Kapoor,Mathematics,48,100,72,4,D
+STU0052,Farida Kapoor,Physics,74,100,75,4,B+
+STU0052,Farida Kapoor,Chemistry,50,100,73,2,C
+STU0052,Farida Kapoor,Computer Science,56,100,61,0,C
+STU0052,Farida Kapoor,English,51,100,81,2,C
+STU0052,Farida Kapoor,Statistics,62,100,78,4,B
+STU0053,Laxman Das,Mathematics,56,100,80,5,C
+STU0053,Laxman Das,Physics,74,100,70,3,B+
+STU0053,Laxman Das,Chemistry,68,100,80,3,B
+STU0053,Laxman Das,Computer Science,79,100,77,2,B+
+STU0053,Laxman Das,English,66,100,65,2,B
+STU0053,Laxman Das,Statistics,75,100,85,1,B+
+STU0054,Vikram Reddy,Mathematics,82,100,87,6,A
+STU0054,Vikram Reddy,Physics,91,100,85,5,A+
+STU0054,Vikram Reddy,Chemistry,79,100,93,8,B+
+STU0054,Vikram Reddy,Computer Science,94,100,98,3,A+
+STU0054,Vikram Reddy,English,93,100,100,6,A+
+STU0054,Vikram Reddy,Statistics,83,100,90,7,A
+STU0055,Manish Das,Mathematics,62,100,60,5,B
+STU0055,Manish Das,Physics,54,100,72,2,C
+STU0055,Manish Das,Chemistry,63,100,68,2,B
+STU0055,Manish Das,Computer Science,66,100,67,5,B
+STU0055,Manish Das,English,76,100,79,4,B+
+STU0055,Manish Das,Statistics,78,100,63,3,B+
+STU0056,Brinda Sharma,Mathematics,85,100,94,4,A
+STU0056,Brinda Sharma,Physics,79,100,83,6,B+
+STU0056,Brinda Sharma,Chemistry,92,100,95,5,A+
+STU0056,Brinda Sharma,Computer Science,87,100,91,7,A
+STU0056,Brinda Sharma,English,91,100,75,5,A+
+STU0056,Brinda Sharma,Statistics,86,100,91,3,A
+STU0057,Chirag Malhotra,Mathematics,70,100,82,6,B+
+STU0057,Chirag Malhotra,Physics,82,100,99,4,A
+STU0057,Chirag Malhotra,Chemistry,87,100,98,6,A
+STU0057,Chirag Malhotra,Computer Science,90,100,77,7,A+
+STU0057,Chirag Malhotra,English,94,100,83,9,A+
+STU0057,Chirag Malhotra,Statistics,100,100,100,8,A+
+STU0058,Laxman Ali,Mathematics,94,100,80,4,A+
+STU0058,Laxman Ali,Physics,84,100,100,6,A
+STU0058,Laxman Ali,Chemistry,89,100,91,8,A
+STU0058,Laxman Ali,Computer Science,72,100,88,6,B+
+STU0058,Laxman Ali,English,80,100,78,4,A
+STU0058,Laxman Ali,Statistics,81,100,84,6,A
+STU0059,Farida Gupta,Mathematics,67,100,89,3,B
+STU0059,Farida Gupta,Physics,64,100,63,3,B
+STU0059,Farida Gupta,Chemistry,57,100,53,7,C
+STU0059,Farida Gupta,Computer Science,63,100,85,4,B
+STU0059,Farida Gupta,English,46,100,85,3,D
+STU0059,Farida Gupta,Statistics,90,100,77,4,A+
+STU0060,Qasim Verma,Mathematics,68,100,64,1,B
+STU0060,Qasim Verma,Physics,54,100,83,5,C
+STU0060,Qasim Verma,Chemistry,51,100,61,5,C
+STU0060,Qasim Verma,Computer Science,67,100,70,3,B
+STU0060,Qasim Verma,English,85,100,75,5,A
+STU0060,Qasim Verma,Statistics,74,100,68,5,B+
+STU0061,Zubair Kumar,Mathematics,77,100,57,4,B+
+STU0061,Zubair Kumar,Physics,59,100,68,3,C
+STU0061,Zubair Kumar,Chemistry,80,100,64,4,A
+STU0061,Zubair Kumar,Computer Science,49,100,66,4,D
+STU0061,Zubair Kumar,English,87,100,65,4,A
+STU0061,Zubair Kumar,Statistics,67,100,69,2,B
+STU0062,Indira Mehta,Mathematics,58,100,75,0,C
+STU0062,Indira Mehta,Physics,63,100,68,4,B
+STU0062,Indira Mehta,Chemistry,84,100,93,3,A
+STU0062,Indira Mehta,Computer Science,54,100,53,3,C
+STU0062,Indira Mehta,English,56,100,76,4,C
+STU0062,Indira Mehta,Statistics,50,100,67,4,C
+STU0063,Pallavi Ansari,Mathematics,58,100,100,1,C
+STU0063,Pallavi Ansari,Physics,65,100,69,3,B
+STU0063,Pallavi Ansari,Chemistry,87,100,79,3,A
+STU0063,Pallavi Ansari,Computer Science,74,100,76,5,B+
+STU0063,Pallavi Ansari,English,63,100,64,3,B
+STU0063,Pallavi Ansari,Statistics,66,100,67,3,B
+STU0064,Chetan Das,Mathematics,87,100,89,3,A
+STU0064,Chetan Das,Physics,93,100,85,8,A+
+STU0064,Chetan Das,Chemistry,92,100,82,8,A+
+STU0064,Chetan Das,Computer Science,90,100,78,5,A+
+STU0064,Chetan Das,English,86,100,96,5,A
+STU0064,Chetan Das,Statistics,86,100,92,6,A
+STU0065,Aarav Rao,Mathematics,80,100,93,4,A
+STU0065,Aarav Rao,Physics,91,100,91,4,A+
+STU0065,Aarav Rao,Chemistry,88,100,83,4,A
+STU0065,Aarav Rao,Computer Science,72,100,100,8,B+
+STU0065,Aarav Rao,English,87,100,90,4,A
+STU0065,Aarav Rao,Statistics,78,100,100,4,B+
+STU0066,Lakshmi Joshi,Mathematics,85,100,70,3,A
+STU0066,Lakshmi Joshi,Physics,55,100,61,4,C
+STU0066,Lakshmi Joshi,Chemistry,72,100,81,2,B+
+STU0066,Lakshmi Joshi,Computer Science,67,100,75,2,B
+STU0066,Lakshmi Joshi,English,35,100,75,2,F
+STU0066,Lakshmi Joshi,Statistics,55,100,72,1,C
+STU0067,Xena Nair,Mathematics,75,100,69,3,B+
+STU0067,Xena Nair,Physics,55,100,65,3,C
+STU0067,Xena Nair,Chemistry,61,100,80,4,B
+STU0067,Xena Nair,Computer Science,68,100,97,5,B
+STU0067,Xena Nair,English,60,100,68,1,B
+STU0067,Xena Nair,Statistics,71,100,78,4,B+
+STU0068,Gaurav Desai,Mathematics,64,100,76,2,B
+STU0068,Gaurav Desai,Physics,64,100,77,3,B
+STU0068,Gaurav Desai,Chemistry,72,100,79,2,B+
+STU0068,Gaurav Desai,Computer Science,61,100,74,5,B
+STU0068,Gaurav Desai,English,79,100,73,3,B+
+STU0068,Gaurav Desai,Statistics,67,100,53,4,B
+STU0069,Nandita Sharma,Mathematics,82,100,85,2,A
+STU0069,Nandita Sharma,Physics,81,100,97,11,A
+STU0069,Nandita Sharma,Chemistry,87,100,95,6,A
+STU0069,Nandita Sharma,Computer Science,67,100,84,6,B
+STU0069,Nandita Sharma,English,92,100,94,4,A+
+STU0069,Nandita Sharma,Statistics,79,100,100,3,B+
+STU0070,Manish Rao,Mathematics,62,100,86,2,B
+STU0070,Manish Rao,Physics,56,100,73,4,C
+STU0070,Manish Rao,Chemistry,78,100,57,4,B+
+STU0070,Manish Rao,Computer Science,58,100,79,2,C
+STU0070,Manish Rao,English,56,100,82,2,C
+STU0070,Manish Rao,Statistics,65,100,57,4,B
+STU0071,Brinda Nair,Mathematics,62,100,93,0,B
+STU0071,Brinda Nair,Physics,45,100,51,4,D
+STU0071,Brinda Nair,Chemistry,76,100,92,3,B+
+STU0071,Brinda Nair,Computer Science,62,100,66,3,B
+STU0071,Brinda Nair,English,68,100,74,5,B
+STU0071,Brinda Nair,Statistics,64,100,80,2,B
+STU0072,Rahul Kumar,Mathematics,79,100,82,7,B+
+STU0072,Rahul Kumar,Physics,90,100,97,4,A+
+STU0072,Rahul Kumar,Chemistry,85,100,89,5,A
+STU0072,Rahul Kumar,Computer Science,100,100,95,6,A+
+STU0072,Rahul Kumar,English,82,100,92,6,A
+STU0072,Rahul Kumar,Statistics,99,100,80,4,A+
+STU0073,Wahida Verma,Mathematics,47,100,63,3,D
+STU0073,Wahida Verma,Physics,41,100,53,0,D
+STU0073,Wahida Verma,Chemistry,1,100,36,0,F
+STU0073,Wahida Verma,Computer Science,46,100,47,1,D
+STU0073,Wahida Verma,English,50,100,64,2,C
+STU0073,Wahida Verma,Statistics,18,100,73,0,F
+STU0074,Disha Kumar,Mathematics,84,100,70,7,A
+STU0074,Disha Kumar,Physics,86,100,81,5,A
+STU0074,Disha Kumar,Chemistry,100,100,98,3,A+
+STU0074,Disha Kumar,Computer Science,76,100,83,3,B+
+STU0074,Disha Kumar,English,77,100,80,3,B+
+STU0074,Disha Kumar,Statistics,76,100,94,7,B+
+STU0075,Lakshmi Malhotra,Mathematics,78,100,83,3,B+
+STU0075,Lakshmi Malhotra,Physics,70,100,77,5,B+
+STU0075,Lakshmi Malhotra,Chemistry,76,100,68,3,B+
+STU0075,Lakshmi Malhotra,Computer Science,35,100,77,4,F
+STU0075,Lakshmi Malhotra,English,60,100,82,2,B
+STU0075,Lakshmi Malhotra,Statistics,75,100,78,5,B+
+STU0076,Yash Nair,Mathematics,82,100,100,3,A
+STU0076,Yash Nair,Physics,83,100,90,7,A
+STU0076,Yash Nair,Chemistry,90,100,90,5,A+
+STU0076,Yash Nair,Computer Science,74,100,79,4,B+
+STU0076,Yash Nair,English,76,100,91,6,B+
+STU0076,Yash Nair,Statistics,84,100,95,3,A
+STU0077,Chirag Iyer,Mathematics,74,100,75,2,B+
+STU0077,Chirag Iyer,Physics,82,100,76,5,A
+STU0077,Chirag Iyer,Chemistry,60,100,74,3,B
+STU0077,Chirag Iyer,Computer Science,57,100,95,6,C
+STU0077,Chirag Iyer,English,76,100,68,4,B+
+STU0077,Chirag Iyer,Statistics,76,100,56,3,B+
+STU0078,Priya Ansari,Mathematics,96,100,78,6,A+
+STU0078,Priya Ansari,Physics,74,100,72,6,B+
+STU0078,Priya Ansari,Chemistry,95,100,75,6,A+
+STU0078,Priya Ansari,Computer Science,87,100,88,8,A
+STU0078,Priya Ansari,English,97,100,92,6,A+
+STU0078,Priya Ansari,Statistics,81,100,90,8,A
+STU0079,Disha Das,Mathematics,81,100,91,5,A
+STU0079,Disha Das,Physics,76,100,68,7,B+
+STU0079,Disha Das,Chemistry,87,100,84,4,A
+STU0079,Disha Das,Computer Science,90,100,95,6,A+
+STU0079,Disha Das,English,79,100,100,4,B+
+STU0079,Disha Das,Statistics,86,100,82,3,A
+STU0080,Chetan Bose,Mathematics,61,100,86,4,B
+STU0080,Chetan Bose,Physics,67,100,71,3,B
+STU0080,Chetan Bose,Chemistry,59,100,60,4,C
+STU0080,Chetan Bose,Computer Science,52,100,77,3,C
+STU0080,Chetan Bose,English,76,100,79,4,B+
+STU0080,Chetan Bose,Statistics,67,100,53,4,B
+STU0081,Abhinav Khan,Mathematics,72,100,55,4,B+
+STU0081,Abhinav Khan,Physics,81,100,69,2,A
+STU0081,Abhinav Khan,Chemistry,83,100,82,4,A
+STU0081,Abhinav Khan,Computer Science,76,100,58,4,B+
+STU0081,Abhinav Khan,English,46,100,66,6,D
+STU0081,Abhinav Khan,Statistics,59,100,100,4,C
+STU0082,Yash Roy,Mathematics,56,100,92,3,C
+STU0082,Yash Roy,Physics,66,100,67,4,B
+STU0082,Yash Roy,Chemistry,62,100,74,5,B
+STU0082,Yash Roy,Computer Science,39,100,66,2,F
+STU0082,Yash Roy,English,69,100,78,3,B
+STU0082,Yash Roy,Statistics,60,100,54,5,B
+STU0083,Chetan Roy,Mathematics,91,100,86,6,A+
+STU0083,Chetan Roy,Physics,86,100,100,6,A
+STU0083,Chetan Roy,Chemistry,72,100,82,6,B+
+STU0083,Chetan Roy,Computer Science,78,100,91,5,B+
+STU0083,Chetan Roy,English,84,100,92,5,A
+STU0083,Chetan Roy,Statistics,88,100,100,2,A
+STU0084,Qasim Desai,Mathematics,73,100,80,5,B+
+STU0084,Qasim Desai,Physics,91,100,95,6,A+
+STU0084,Qasim Desai,Chemistry,84,100,75,7,A
+STU0084,Qasim Desai,Computer Science,78,100,92,6,B+
+STU0084,Qasim Desai,English,89,100,90,5,A
+STU0084,Qasim Desai,Statistics,79,100,90,5,B+
+STU0085,Gaurav Patil,Mathematics,81,100,46,6,A
+STU0085,Gaurav Patil,Physics,49,100,72,4,D
+STU0085,Gaurav Patil,Chemistry,63,100,69,2,B
+STU0085,Gaurav Patil,Computer Science,68,100,73,3,B
+STU0085,Gaurav Patil,English,60,100,73,6,B
+STU0085,Gaurav Patil,Statistics,38,100,90,5,F
+STU0086,Chirag Agarwal,Mathematics,50,100,79,3,C
+STU0086,Chirag Agarwal,Physics,73,100,65,4,B+
+STU0086,Chirag Agarwal,Chemistry,69,100,64,4,B
+STU0086,Chirag Agarwal,Computer Science,51,100,75,6,C
+STU0086,Chirag Agarwal,English,68,100,68,3,B
+STU0086,Chirag Agarwal,Statistics,63,100,44,3,B
+STU0087,Tanmay Das,Mathematics,87,100,69,1,A
+STU0087,Tanmay Das,Physics,67,100,92,4,B
+STU0087,Tanmay Das,Chemistry,80,100,86,1,A
+STU0087,Tanmay Das,Computer Science,55,100,74,2,C
+STU0087,Tanmay Das,English,46,100,80,4,D
+STU0087,Tanmay Das,Statistics,64,100,78,3,B
+STU0088,Lakshmi D'Souza,Mathematics,57,100,65,3,C
+STU0088,Lakshmi D'Souza,Physics,79,100,73,3,B+
+STU0088,Lakshmi D'Souza,Chemistry,67,100,88,2,B
+STU0088,Lakshmi D'Souza,Computer Science,54,100,76,7,C
+STU0088,Lakshmi D'Souza,English,59,100,71,5,C
+STU0088,Lakshmi D'Souza,Statistics,86,100,62,4,A
+STU0089,Vani Singh,Mathematics,61,100,100,1,B
+STU0089,Vani Singh,Physics,58,100,73,5,C
+STU0089,Vani Singh,Chemistry,70,100,68,2,B+
+STU0089,Vani Singh,Computer Science,55,100,63,4,C
+STU0089,Vani Singh,English,65,100,73,4,B
+STU0089,Vani Singh,Statistics,70,100,59,3,B+
+STU0090,Gayatri Das,Mathematics,83,100,60,7,A
+STU0090,Gayatri Das,Physics,56,100,84,2,C
+STU0090,Gayatri Das,Chemistry,71,100,71,5,B+
+STU0090,Gayatri Das,Computer Science,81,100,85,3,A
+STU0090,Gayatri Das,English,47,100,69,3,D
+STU0090,Gayatri Das,Statistics,51,100,78,4,C
+STU0091,Chetan Singh,Mathematics,93,100,95,7,A+
+STU0091,Chetan Singh,Physics,82,100,93,4,A
+STU0091,Chetan Singh,Chemistry,76,100,94,6,B+
+STU0091,Chetan Singh,Computer Science,84,100,82,5,A
+STU0091,Chetan Singh,English,75,100,80,5,B+
+STU0091,Chetan Singh,Statistics,89,100,88,6,A
+STU0092,Pallavi Nair,Mathematics,35,100,88,6,F
+STU0092,Pallavi Nair,Physics,43,100,93,1,D
+STU0092,Pallavi Nair,Chemistry,49,100,78,1,D
+STU0092,Pallavi Nair,Computer Science,61,100,89,5,B
+STU0092,Pallavi Nair,English,71,100,67,5,B+
+STU0092,Pallavi Nair,Statistics,73,100,75,5,B+
+STU0093,Manish Patel,Mathematics,48,100,71,4,D
+STU0093,Manish Patel,Physics,69,100,78,2,B
+STU0093,Manish Patel,Chemistry,73,100,80,5,B+
+STU0093,Manish Patel,Computer Science,73,100,77,4,B+
+STU0093,Manish Patel,English,44,100,77,1,D
+STU0093,Manish Patel,Statistics,60,100,70,2,B
+STU0094,Laxman Bose,Mathematics,71,100,71,5,B+
+STU0094,Laxman Bose,Physics,79,100,69,3,B+
+STU0094,Laxman Bose,Chemistry,55,100,73,2,C
+STU0094,Laxman Bose,Computer Science,92,100,89,3,A+
+STU0094,Laxman Bose,English,68,100,80,4,B
+STU0094,Laxman Bose,Statistics,49,100,65,4,D
+STU0095,Riya Joshi,Mathematics,85,100,67,4,A
+STU0095,Riya Joshi,Physics,77,100,86,6,B+
+STU0095,Riya Joshi,Chemistry,86,100,99,8,A
+STU0095,Riya Joshi,Computer Science,73,100,89,8,B+
+STU0095,Riya Joshi,English,77,100,85,6,B+
+STU0095,Riya Joshi,Statistics,81,100,83,5,A
+STU0096,Qasim Tiwari,Mathematics,61,100,71,2,B
+STU0096,Qasim Tiwari,Physics,60,100,88,3,B
+STU0096,Qasim Tiwari,Chemistry,60,100,69,5,B
+STU0096,Qasim Tiwari,Computer Science,83,100,58,2,A
+STU0096,Qasim Tiwari,English,79,100,81,2,B+
+STU0096,Qasim Tiwari,Statistics,48,100,70,2,D
+STU0097,Suresh D'Souza,Mathematics,77,100,68,4,B+
+STU0097,Suresh D'Souza,Physics,92,100,88,4,A+
+STU0097,Suresh D'Souza,Chemistry,64,100,71,4,B
+STU0097,Suresh D'Souza,Computer Science,86,100,83,1,A
+STU0097,Suresh D'Souza,English,56,100,75,5,C
+STU0097,Suresh D'Souza,Statistics,54,100,77,3,C
+STU0098,Gaurav Mehta,Mathematics,71,100,63,3,B+
+STU0098,Gaurav Mehta,Physics,77,100,65,7,B+
+STU0098,Gaurav Mehta,Chemistry,56,100,78,2,C
+STU0098,Gaurav Mehta,Computer Science,55,100,76,3,C
+STU0098,Gaurav Mehta,English,71,100,69,1,B+
+STU0098,Gaurav Mehta,Statistics,76,100,83,4,B+
+STU0099,Laxman Roy,Mathematics,76,100,85,1,B+
+STU0099,Laxman Roy,Physics,59,100,98,5,C
+STU0099,Laxman Roy,Chemistry,59,100,62,2,C
+STU0099,Laxman Roy,Computer Science,59,100,66,5,C
+STU0099,Laxman Roy,English,64,100,68,6,B
+STU0099,Laxman Roy,Statistics,65,100,75,3,B
+STU0100,Meera Menon,Mathematics,50,100,85,2,C
+STU0100,Meera Menon,Physics,62,100,88,3,B
+STU0100,Meera Menon,Chemistry,69,100,88,5,B
+STU0100,Meera Menon,Computer Science,67,100,75,4,B
+STU0100,Meera Menon,English,48,100,59,5,D
+STU0100,Meera Menon,Statistics,82,100,62,5,A
+STU0101,Farida Singh,Mathematics,62,100,69,4,B
+STU0101,Farida Singh,Physics,83,100,79,1,A
+STU0101,Farida Singh,Chemistry,60,100,64,4,B
+STU0101,Farida Singh,Computer Science,53,100,69,4,C
+STU0101,Farida Singh,English,52,100,73,2,C
+STU0101,Farida Singh,Statistics,78,100,79,3,B+
+STU0102,Lakshmi Hussain,Mathematics,50,100,69,3,C
+STU0102,Lakshmi Hussain,Physics,51,100,72,1,C
+STU0102,Lakshmi Hussain,Chemistry,40,100,41,1,D
+STU0102,Lakshmi Hussain,Computer Science,20,100,70,0,F
+STU0102,Lakshmi Hussain,English,52,100,60,2,C
+STU0102,Lakshmi Hussain,Statistics,50,100,62,2,C
+STU0103,Disha Verma,Mathematics,36,100,59,3,F
+STU0103,Disha Verma,Physics,26,100,47,1,F
+STU0103,Disha Verma,Chemistry,45,100,58,0,D
+STU0103,Disha Verma,Computer Science,63,100,68,2,B
+STU0103,Disha Verma,English,60,100,61,2,B
+STU0103,Disha Verma,Statistics,49,100,58,2,D
+STU0104,Xena Tiwari,Mathematics,84,100,93,6,A
+STU0104,Xena Tiwari,Physics,50,100,66,4,C
+STU0104,Xena Tiwari,Chemistry,60,100,68,4,B
+STU0104,Xena Tiwari,Computer Science,39,100,78,5,F
+STU0104,Xena Tiwari,English,58,100,60,4,C
+STU0104,Xena Tiwari,Statistics,65,100,72,4,B
+STU0105,Waqar Menon,Mathematics,77,100,79,3,B+
+STU0105,Waqar Menon,Physics,59,100,60,6,C
+STU0105,Waqar Menon,Chemistry,59,100,88,5,C
+STU0105,Waqar Menon,Computer Science,68,100,56,3,B
+STU0105,Waqar Menon,English,64,100,72,7,B
+STU0105,Waqar Menon,Statistics,68,100,74,3,B
+STU0106,Rahul Desai,Mathematics,9,100,46,3,F
+STU0106,Rahul Desai,Physics,47,100,61,2,D
+STU0106,Rahul Desai,Chemistry,35,100,44,0,F
+STU0106,Rahul Desai,Computer Science,46,100,58,1,D
+STU0106,Rahul Desai,English,40,100,60,1,D
+STU0106,Rahul Desai,Statistics,65,100,47,0,B
+STU0107,Qasim Agarwal,Mathematics,75,100,59,4,B+
+STU0107,Qasim Agarwal,Physics,53,100,79,5,C
+STU0107,Qasim Agarwal,Chemistry,69,100,76,3,B
+STU0107,Qasim Agarwal,Computer Science,61,100,65,6,B
+STU0107,Qasim Agarwal,English,60,100,74,5,B
+STU0107,Qasim Agarwal,Statistics,46,100,76,6,D
+STU0108,Indira Menon,Mathematics,85,100,100,7,A
+STU0108,Indira Menon,Physics,100,100,85,5,A+
+STU0108,Indira Menon,Chemistry,85,100,85,6,A
+STU0108,Indira Menon,Computer Science,83,100,83,4,A
+STU0108,Indira Menon,English,84,100,90,5,A
+STU0108,Indira Menon,Statistics,81,100,80,5,A
+STU0109,Hemant Mehta,Mathematics,76,100,73,2,B+
+STU0109,Hemant Mehta,Physics,54,100,54,3,C
+STU0109,Hemant Mehta,Chemistry,80,100,76,6,A
+STU0109,Hemant Mehta,Computer Science,60,100,67,6,B
+STU0109,Hemant Mehta,English,83,100,68,3,A
+STU0109,Hemant Mehta,Statistics,86,100,97,4,A
+STU0110,Nandita Kapoor,Mathematics,38,100,44,2,F
+STU0110,Nandita Kapoor,Physics,26,100,77,2,F
+STU0110,Nandita Kapoor,Chemistry,39,100,56,2,F
+STU0110,Nandita Kapoor,Computer Science,22,100,63,1,F
+STU0110,Nandita Kapoor,English,53,100,58,1,C
+STU0110,Nandita Kapoor,Statistics,6,100,34,2,F
+STU0111,Abhinav Das,Mathematics,90,100,85,6,A+
+STU0111,Abhinav Das,Physics,96,100,92,4,A+
+STU0111,Abhinav Das,Chemistry,83,100,94,7,A
+STU0111,Abhinav Das,Computer Science,68,100,86,3,B
+STU0111,Abhinav Das,English,82,100,78,6,A
+STU0111,Abhinav Das,Statistics,89,100,89,7,A
+STU0112,Ekta Roy,Mathematics,67,100,80,2,B
+STU0112,Ekta Roy,Physics,56,100,86,3,C
+STU0112,Ekta Roy,Chemistry,42,100,76,4,D
+STU0112,Ekta Roy,Computer Science,63,100,67,4,B
+STU0112,Ekta Roy,English,61,100,75,3,B
+STU0112,Ekta Roy,Statistics,60,100,70,1,B
+STU0113,Omkar Agarwal,Mathematics,59,100,85,5,C
+STU0113,Omkar Agarwal,Physics,41,100,76,6,D
+STU0113,Omkar Agarwal,Chemistry,67,100,78,4,B
+STU0113,Omkar Agarwal,Computer Science,74,100,68,4,B+
+STU0113,Omkar Agarwal,English,70,100,66,0,B+
+STU0113,Omkar Agarwal,Statistics,68,100,53,3,B
+STU0114,Bhavna Desai,Mathematics,49,100,83,2,D
+STU0114,Bhavna Desai,Physics,44,100,88,4,D
+STU0114,Bhavna Desai,Chemistry,61,100,83,3,B
+STU0114,Bhavna Desai,Computer Science,47,100,69,5,D
+STU0114,Bhavna Desai,English,61,100,82,2,B
+STU0114,Bhavna Desai,Statistics,66,100,72,4,B
+STU0115,Priya Joshi,Mathematics,27,100,52,2,F
+STU0115,Priya Joshi,Physics,25,100,48,2,F
+STU0115,Priya Joshi,Chemistry,23,100,57,2,F
+STU0115,Priya Joshi,Computer Science,61,100,58,1,B
+STU0115,Priya Joshi,English,66,100,56,3,B
+STU0115,Priya Joshi,Statistics,37,100,63,3,F
+STU0116,Meera Nair,Mathematics,49,100,71,3,D
+STU0116,Meera Nair,Physics,73,100,71,4,B+
+STU0116,Meera Nair,Chemistry,65,100,74,2,B
+STU0116,Meera Nair,Computer Science,81,100,58,2,A
+STU0116,Meera Nair,English,55,100,54,2,C
+STU0116,Meera Nair,Statistics,71,100,69,5,B+
+STU0117,Shreya Iyer,Mathematics,34,100,86,5,F
+STU0117,Shreya Iyer,Physics,58,100,68,4,C
+STU0117,Shreya Iyer,Chemistry,61,100,92,5,B
+STU0117,Shreya Iyer,Computer Science,48,100,65,6,D
+STU0117,Shreya Iyer,English,56,100,72,3,C
+STU0117,Shreya Iyer,Statistics,84,100,60,5,A
+STU0118,Nikhil Roy,Mathematics,23,100,53,0,F
+STU0118,Nikhil Roy,Physics,25,100,65,5,F
+STU0118,Nikhil Roy,Chemistry,26,100,51,2,F
+STU0118,Nikhil Roy,Computer Science,51,100,57,1,C
+STU0118,Nikhil Roy,English,25,100,60,3,F
+STU0118,Nikhil Roy,Statistics,39,100,67,1,F
+STU0119,Lakshmi Desai,Mathematics,64,100,82,2,B
+STU0119,Lakshmi Desai,Physics,47,100,67,3,D
+STU0119,Lakshmi Desai,Chemistry,67,100,79,6,B
+STU0119,Lakshmi Desai,Computer Science,82,100,68,5,A
+STU0119,Lakshmi Desai,English,77,100,90,5,B+
+STU0119,Lakshmi Desai,Statistics,75,100,85,5,B+
+STU0120,Vani Tiwari,Mathematics,74,100,88,4,B+
+STU0120,Vani Tiwari,Physics,81,100,76,7,A
+STU0120,Vani Tiwari,Chemistry,93,100,90,6,A+
+STU0120,Vani Tiwari,Computer Science,81,100,84,3,A
+STU0120,Vani Tiwari,English,85,100,90,2,A
+STU0120,Vani Tiwari,Statistics,88,100,100,7,A
+STU0121,Suresh Kapoor,Mathematics,86,100,76,3,A
+STU0121,Suresh Kapoor,Physics,68,100,88,4,B
+STU0121,Suresh Kapoor,Chemistry,50,100,56,4,C
+STU0121,Suresh Kapoor,Computer Science,65,100,70,1,B
+STU0121,Suresh Kapoor,English,67,100,81,3,B
+STU0121,Suresh Kapoor,Statistics,72,100,88,5,B+
+STU0122,Gayatri Ali,Mathematics,67,100,79,2,B
+STU0122,Gayatri Ali,Physics,54,100,69,4,C
+STU0122,Gayatri Ali,Chemistry,48,100,71,1,D
+STU0122,Gayatri Ali,Computer Science,50,100,65,3,C
+STU0122,Gayatri Ali,English,46,100,67,1,D
+STU0122,Gayatri Ali,Statistics,78,100,70,1,B+
+STU0123,Eshan Hussain,Mathematics,53,100,83,5,C
+STU0123,Eshan Hussain,Physics,67,100,60,3,B
+STU0123,Eshan Hussain,Chemistry,62,100,76,6,B
+STU0123,Eshan Hussain,Computer Science,67,100,82,1,B
+STU0123,Eshan Hussain,English,53,100,77,4,C
+STU0123,Eshan Hussain,Statistics,54,100,66,2,C
+STU0124,Vikram Patil,Mathematics,3,100,68,0,F
+STU0124,Vikram Patil,Physics,66,100,51,0,B
+STU0124,Vikram Patil,Chemistry,43,100,59,2,D
+STU0124,Vikram Patil,Computer Science,25,100,67,3,F
+STU0124,Vikram Patil,English,20,100,51,4,F
+STU0124,Vikram Patil,Statistics,49,100,59,3,D
+STU0125,Gayatri Hussain,Mathematics,51,100,53,0,C
+STU0125,Gayatri Hussain,Physics,57,100,53,3,C
+STU0125,Gayatri Hussain,Chemistry,39,100,48,3,F
+STU0125,Gayatri Hussain,Computer Science,9,100,44,1,F
+STU0125,Gayatri Hussain,English,42,100,69,2,D
+STU0125,Gayatri Hussain,Statistics,33,100,31,2,F
+STU0126,Divya Verma,Mathematics,42,100,49,0,D
+STU0126,Divya Verma,Physics,43,100,42,1,D
+STU0126,Divya Verma,Chemistry,40,100,60,3,D
+STU0126,Divya Verma,Computer Science,53,100,46,2,C
+STU0126,Divya Verma,English,35,100,47,0,F
+STU0126,Divya Verma,Statistics,59,100,58,0,C
+STU0127,Bhavna Kumar,Mathematics,48,100,49,3,D
+STU0127,Bhavna Kumar,Physics,28,100,53,0,F
+STU0127,Bhavna Kumar,Chemistry,37,100,60,2,F
+STU0127,Bhavna Kumar,Computer Science,21,100,58,3,F
+STU0127,Bhavna Kumar,English,32,100,62,3,F
+STU0127,Bhavna Kumar,Statistics,36,100,69,4,F
+STU0128,Wahida Joshi,Mathematics,51,100,65,1,C
+STU0128,Wahida Joshi,Physics,21,100,68,3,F
+STU0128,Wahida Joshi,Chemistry,8,100,69,1,F
+STU0128,Wahida Joshi,Computer Science,34,100,64,2,F
+STU0128,Wahida Joshi,English,34,100,50,0,F
+STU0128,Wahida Joshi,Statistics,39,100,54,3,F
+STU0129,Disha Tiwari,Mathematics,67,100,76,4,B
+STU0129,Disha Tiwari,Physics,56,100,71,4,C
+STU0129,Disha Tiwari,Chemistry,45,100,54,1,D
+STU0129,Disha Tiwari,Computer Science,48,100,69,5,D
+STU0129,Disha Tiwari,English,49,100,88,2,D
+STU0129,Disha Tiwari,Statistics,66,100,70,5,B
+STU0130,Qasim Iyer,Mathematics,82,100,83,4,A
+STU0130,Qasim Iyer,Physics,88,100,90,5,A
+STU0130,Qasim Iyer,Chemistry,90,100,62,5,A+
+STU0130,Qasim Iyer,Computer Science,77,100,98,8,B+
+STU0130,Qasim Iyer,English,82,100,71,7,A
+STU0130,Qasim Iyer,Statistics,90,100,86,4,A+
+STU0131,Uma Bose,Mathematics,64,100,62,2,B
+STU0131,Uma Bose,Physics,54,100,67,4,C
+STU0131,Uma Bose,Chemistry,60,100,51,4,B
+STU0131,Uma Bose,Computer Science,82,100,82,2,A
+STU0131,Uma Bose,English,66,100,76,3,B
+STU0131,Uma Bose,Statistics,42,100,59,4,D
+STU0132,Vikram Das,Mathematics,69,100,96,4,B
+STU0132,Vikram Das,Physics,48,100,80,2,D
+STU0132,Vikram Das,Chemistry,71,100,67,5,B+
+STU0132,Vikram Das,Computer Science,80,100,77,7,A
+STU0132,Vikram Das,English,62,100,68,8,B
+STU0132,Vikram Das,Statistics,56,100,72,4,C
+STU0133,Disha Ali,Mathematics,56,100,80,2,C
+STU0133,Disha Ali,Physics,57,100,78,3,C
+STU0133,Disha Ali,Chemistry,71,100,73,3,B+
+STU0133,Disha Ali,Computer Science,60,100,62,3,B
+STU0133,Disha Ali,English,61,100,53,3,B
+STU0133,Disha Ali,Statistics,91,100,69,4,A+
+STU0134,Lakshmi Verma,Mathematics,41,100,64,1,D
+STU0134,Lakshmi Verma,Physics,67,100,75,2,B
+STU0134,Lakshmi Verma,Chemistry,61,100,65,2,B
+STU0134,Lakshmi Verma,Computer Science,58,100,70,1,C
+STU0134,Lakshmi Verma,English,55,100,69,4,C
+STU0134,Lakshmi Verma,Statistics,55,100,73,5,C
+STU0135,Chirag Gupta,Mathematics,30,100,55,1,F
+STU0135,Chirag Gupta,Physics,48,100,64,2,D
+STU0135,Chirag Gupta,Chemistry,63,100,37,3,B
+STU0135,Chirag Gupta,Computer Science,40,100,69,1,D
+STU0135,Chirag Gupta,English,47,100,56,3,D
+STU0135,Chirag Gupta,Statistics,44,100,53,2,D
+STU0136,Ekta Khan,Mathematics,62,100,73,4,B
+STU0136,Ekta Khan,Physics,60,100,82,4,B
+STU0136,Ekta Khan,Chemistry,30,100,70,4,F
+STU0136,Ekta Khan,Computer Science,52,100,58,4,C
+STU0136,Ekta Khan,English,70,100,96,2,B+
+STU0136,Ekta Khan,Statistics,68,100,72,4,B
+STU0137,Hina Kumar,Mathematics,63,100,60,3,B
+STU0137,Hina Kumar,Physics,58,100,97,4,C
+STU0137,Hina Kumar,Chemistry,63,100,80,3,B
+STU0137,Hina Kumar,Computer Science,72,100,72,0,B+
+STU0137,Hina Kumar,English,64,100,66,2,B
+STU0137,Hina Kumar,Statistics,59,100,82,4,C
+STU0138,Pallavi Patil,Mathematics,59,100,47,2,C
+STU0138,Pallavi Patil,Physics,56,100,52,0,C
+STU0138,Pallavi Patil,Chemistry,41,100,41,2,D
+STU0138,Pallavi Patil,Computer Science,33,100,56,3,F
+STU0138,Pallavi Patil,English,54,100,45,1,C
+STU0138,Pallavi Patil,Statistics,32,100,32,1,F
+STU0139,Abhinav Hussain,Mathematics,85,100,73,7,A
+STU0139,Abhinav Hussain,Physics,72,100,65,3,B+
+STU0139,Abhinav Hussain,Chemistry,44,100,70,4,D
+STU0139,Abhinav Hussain,Computer Science,68,100,76,1,B
+STU0139,Abhinav Hussain,English,77,100,65,4,B+
+STU0139,Abhinav Hussain,Statistics,83,100,64,1,A
+STU0140,Omkar Gupta,Mathematics,67,100,62,3,B
+STU0140,Omkar Gupta,Physics,70,100,75,1,B+
+STU0140,Omkar Gupta,Chemistry,68,100,65,4,B
+STU0140,Omkar Gupta,Computer Science,86,100,81,4,A
+STU0140,Omkar Gupta,English,65,100,70,6,B
+STU0140,Omkar Gupta,Statistics,58,100,66,3,C
+STU0141,Farhan D'Souza,Mathematics,60,100,81,5,B
+STU0141,Farhan D'Souza,Physics,56,100,89,2,C
+STU0141,Farhan D'Souza,Chemistry,77,100,68,4,B+
+STU0141,Farhan D'Souza,Computer Science,27,100,63,4,F
+STU0141,Farhan D'Souza,English,70,100,72,1,B+
+STU0141,Farhan D'Souza,Statistics,70,100,79,3,B+
+STU0142,Uday Ansari,Mathematics,66,100,74,4,B
+STU0142,Uday Ansari,Physics,80,100,67,4,A
+STU0142,Uday Ansari,Chemistry,53,100,67,1,C
+STU0142,Uday Ansari,Computer Science,66,100,65,1,B
+STU0142,Uday Ansari,English,66,100,73,2,B
+STU0142,Uday Ansari,Statistics,61,100,73,3,B
+STU0143,Tanmay Menon,Mathematics,84,100,97,6,A
+STU0143,Tanmay Menon,Physics,86,100,92,3,A
+STU0143,Tanmay Menon,Chemistry,76,100,91,4,B+
+STU0143,Tanmay Menon,Computer Science,93,100,67,5,A+
+STU0143,Tanmay Menon,English,95,100,73,4,A+
+STU0143,Tanmay Menon,Statistics,93,100,94,6,A+
+STU0144,Rahul Bose,Mathematics,27,100,76,1,F
+STU0144,Rahul Bose,Physics,33,100,56,1,F
+STU0144,Rahul Bose,Chemistry,24,100,44,1,F
+STU0144,Rahul Bose,Computer Science,35,100,66,2,F
+STU0144,Rahul Bose,English,39,100,67,1,F
+STU0144,Rahul Bose,Statistics,30,100,50,3,F
+STU0145,Aarav Choudhary,Mathematics,72,100,79,4,B+
+STU0145,Aarav Choudhary,Physics,66,100,77,4,B
+STU0145,Aarav Choudhary,Chemistry,67,100,77,6,B
+STU0145,Aarav Choudhary,Computer Science,70,100,80,6,B+
+STU0145,Aarav Choudhary,English,52,100,85,3,C
+STU0145,Aarav Choudhary,Statistics,67,100,76,5,B
+STU0146,Kavita Joshi,Mathematics,52,100,80,7,C
+STU0146,Kavita Joshi,Physics,69,100,70,1,B
+STU0146,Kavita Joshi,Chemistry,72,100,80,2,B+
+STU0146,Kavita Joshi,Computer Science,74,100,54,3,B+
+STU0146,Kavita Joshi,English,56,100,75,3,C
+STU0146,Kavita Joshi,Statistics,37,100,88,3,F
+STU0147,Jaya Das,Mathematics,84,100,100,5,A
+STU0147,Jaya Das,Physics,83,100,81,6,A
+STU0147,Jaya Das,Chemistry,75,100,99,3,B+
+STU0147,Jaya Das,Computer Science,79,100,71,5,B+
+STU0147,Jaya Das,English,94,100,89,5,A+
+STU0147,Jaya Das,Statistics,86,100,100,7,A
+STU0148,Farhan Agarwal,Mathematics,55,100,74,6,C
+STU0148,Farhan Agarwal,Physics,58,100,70,3,C
+STU0148,Farhan Agarwal,Chemistry,57,100,60,3,C
+STU0148,Farhan Agarwal,Computer Science,57,100,84,5,C
+STU0148,Farhan Agarwal,English,65,100,60,7,B
+STU0148,Farhan Agarwal,Statistics,63,100,64,5,B
+STU0149,Zubair Malhotra,Mathematics,73,100,74,5,B+
+STU0149,Zubair Malhotra,Physics,48,100,74,4,D
+STU0149,Zubair Malhotra,Chemistry,46,100,86,5,D
+STU0149,Zubair Malhotra,Computer Science,58,100,78,2,C
+STU0149,Zubair Malhotra,English,58,100,73,3,C
+STU0149,Zubair Malhotra,Statistics,70,100,84,4,B+
+STU0150,Bhavna Saxena,Mathematics,27,100,54,2,F
+STU0150,Bhavna Saxena,Physics,49,100,52,2,D
+STU0150,Bhavna Saxena,Chemistry,47,100,59,3,D
+STU0150,Bhavna Saxena,Computer Science,32,100,60,1,F
+STU0150,Bhavna Saxena,English,45,100,73,2,D
+STU0150,Bhavna Saxena,Statistics,46,100,53,2,D
+STU0151,Gayatri Tiwari,Mathematics,54,100,83,4,C
+STU0151,Gayatri Tiwari,Physics,82,100,84,2,A
+STU0151,Gayatri Tiwari,Chemistry,54,100,72,6,C
+STU0151,Gayatri Tiwari,Computer Science,48,100,67,3,D
+STU0151,Gayatri Tiwari,English,64,100,83,2,B
+STU0151,Gayatri Tiwari,Statistics,38,100,66,3,F
+STU0152,Rahul Das,Mathematics,52,100,74,3,C
+STU0152,Rahul Das,Physics,52,100,77,2,C
+STU0152,Rahul Das,Chemistry,80,100,72,1,A
+STU0152,Rahul Das,Computer Science,66,100,70,2,B
+STU0152,Rahul Das,English,70,100,80,5,B+
+STU0152,Rahul Das,Statistics,80,100,60,1,A
+STU0153,Riya Das,Mathematics,47,100,74,2,D
+STU0153,Riya Das,Physics,55,100,46,4,C
+STU0153,Riya Das,Chemistry,69,100,73,2,B
+STU0153,Riya Das,Computer Science,63,100,78,5,B
+STU0153,Riya Das,English,66,100,85,5,B
+STU0153,Riya Das,Statistics,55,100,59,4,C
+STU0154,Wahida Pillai,Mathematics,58,100,76,5,C
+STU0154,Wahida Pillai,Physics,63,100,79,3,B
+STU0154,Wahida Pillai,Chemistry,48,100,92,4,D
+STU0154,Wahida Pillai,Computer Science,70,100,64,4,B+
+STU0154,Wahida Pillai,English,71,100,75,4,B+
+STU0154,Wahida Pillai,Statistics,80,100,93,4,A
+STU0155,Xena Bose,Mathematics,84,100,82,7,A
+STU0155,Xena Bose,Physics,87,100,91,7,A
+STU0155,Xena Bose,Chemistry,90,100,93,6,A+
+STU0155,Xena Bose,Computer Science,64,100,96,5,B
+STU0155,Xena Bose,English,91,100,89,6,A+
+STU0155,Xena Bose,Statistics,83,100,76,7,A
+STU0156,Hemant Malhotra,Mathematics,70,100,66,2,B+
+STU0156,Hemant Malhotra,Physics,57,100,77,4,C
+STU0156,Hemant Malhotra,Chemistry,86,100,62,2,A
+STU0156,Hemant Malhotra,Computer Science,63,100,66,3,B
+STU0156,Hemant Malhotra,English,57,100,82,3,C
+STU0156,Hemant Malhotra,Statistics,55,100,74,4,C
+STU0157,Yash Joshi,Mathematics,69,100,65,5,B
+STU0157,Yash Joshi,Physics,79,100,59,2,B+
+STU0157,Yash Joshi,Chemistry,58,100,77,5,C
+STU0157,Yash Joshi,Computer Science,74,100,72,3,B+
+STU0157,Yash Joshi,English,67,100,56,4,B
+STU0157,Yash Joshi,Statistics,58,100,74,4,C
+STU0158,Divya Kapoor,Mathematics,74,100,78,3,B+
+STU0158,Divya Kapoor,Physics,52,100,64,2,C
+STU0158,Divya Kapoor,Chemistry,64,100,51,4,B
+STU0158,Divya Kapoor,Computer Science,75,100,69,4,B+
+STU0158,Divya Kapoor,English,61,100,81,0,B
+STU0158,Divya Kapoor,Statistics,76,100,63,3,B+
+STU0159,Brinda Menon,Mathematics,76,100,67,5,B+
+STU0159,Brinda Menon,Physics,78,100,93,5,B+
+STU0159,Brinda Menon,Chemistry,81,100,96,6,A
+STU0159,Brinda Menon,Computer Science,81,100,91,7,A
+STU0159,Brinda Menon,English,87,100,73,5,A
+STU0159,Brinda Menon,Statistics,87,100,100,5,A
+STU0160,Waqar Gupta,Mathematics,62,100,59,4,B
+STU0160,Waqar Gupta,Physics,62,100,71,4,B
+STU0160,Waqar Gupta,Chemistry,62,100,57,2,B
+STU0160,Waqar Gupta,Computer Science,68,100,76,3,B
+STU0160,Waqar Gupta,English,71,100,74,3,B+
+STU0160,Waqar Gupta,Statistics,67,100,68,2,B
+STU0161,Manish Kapoor,Mathematics,59,100,93,2,C
+STU0161,Manish Kapoor,Physics,60,100,61,0,B
+STU0161,Manish Kapoor,Chemistry,62,100,67,3,B
+STU0161,Manish Kapoor,Computer Science,75,100,59,5,B+
+STU0161,Manish Kapoor,English,74,100,78,6,B+
+STU0161,Manish Kapoor,Statistics,45,100,86,2,D
+STU0162,Tanmay Rao,Mathematics,75,100,90,1,B+
+STU0162,Tanmay Rao,Physics,56,100,71,4,C
+STU0162,Tanmay Rao,Chemistry,57,100,79,4,C
+STU0162,Tanmay Rao,Computer Science,93,100,59,6,A+
+STU0162,Tanmay Rao,English,67,100,69,4,B
+STU0162,Tanmay Rao,Statistics,61,100,80,3,B
+STU0163,Shreya Hussain,Mathematics,58,100,71,4,C
+STU0163,Shreya Hussain,Physics,63,100,79,3,B
+STU0163,Shreya Hussain,Chemistry,65,100,70,2,B
+STU0163,Shreya Hussain,Computer Science,59,100,76,2,C
+STU0163,Shreya Hussain,English,97,100,81,3,A+
+STU0163,Shreya Hussain,Statistics,55,100,95,4,C
+STU0164,Qasim Das,Mathematics,63,100,80,4,B
+STU0164,Qasim Das,Physics,74,100,73,3,B+
+STU0164,Qasim Das,Chemistry,75,100,97,4,B+
+STU0164,Qasim Das,Computer Science,55,100,71,3,C
+STU0164,Qasim Das,English,56,100,45,2,C
+STU0164,Qasim Das,Statistics,39,100,68,5,F
+STU0165,Uday Joshi,Mathematics,30,100,73,2,F
+STU0165,Uday Joshi,Physics,46,100,61,0,D
+STU0165,Uday Joshi,Chemistry,41,100,62,2,D
+STU0165,Uday Joshi,Computer Science,27,100,51,3,F
+STU0165,Uday Joshi,English,48,100,72,1,D
+STU0165,Uday Joshi,Statistics,32,100,62,2,F
+STU0166,Qasim Gupta,Mathematics,90,100,98,10,A+
+STU0166,Qasim Gupta,Physics,76,100,86,6,B+
+STU0166,Qasim Gupta,Chemistry,83,100,87,7,A
+STU0166,Qasim Gupta,Computer Science,98,100,100,3,A+
+STU0166,Qasim Gupta,English,76,100,89,5,B+
+STU0166,Qasim Gupta,Statistics,83,100,94,7,A
+STU0167,Tara Ansari,Mathematics,76,100,57,1,B+
+STU0167,Tara Ansari,Physics,74,100,66,6,B+
+STU0167,Tara Ansari,Chemistry,77,100,68,3,B+
+STU0167,Tara Ansari,Computer Science,46,100,70,6,D
+STU0167,Tara Ansari,English,61,100,82,5,B
+STU0167,Tara Ansari,Statistics,62,100,77,5,B
+STU0168,Hemant Rao,Mathematics,29,100,56,1,F
+STU0168,Hemant Rao,Physics,57,100,64,3,C
+STU0168,Hemant Rao,Chemistry,18,100,52,0,F
+STU0168,Hemant Rao,Computer Science,51,100,72,1,C
+STU0168,Hemant Rao,English,58,100,81,1,C
+STU0168,Hemant Rao,Statistics,36,100,55,4,F
+STU0169,Manish Roy,Mathematics,83,100,100,3,A
+STU0169,Manish Roy,Physics,89,100,84,8,A
+STU0169,Manish Roy,Chemistry,88,100,76,7,A
+STU0169,Manish Roy,Computer Science,91,100,88,5,A+
+STU0169,Manish Roy,English,75,100,82,4,B+
+STU0169,Manish Roy,Statistics,96,100,88,4,A+
+STU0170,Bhavna Malhotra,Mathematics,30,100,59,0,F
+STU0170,Bhavna Malhotra,Physics,55,100,46,5,C
+STU0170,Bhavna Malhotra,Chemistry,19,100,54,1,F
+STU0170,Bhavna Malhotra,Computer Science,43,100,60,2,D
+STU0170,Bhavna Malhotra,English,33,100,76,1,F
+STU0170,Bhavna Malhotra,Statistics,54,100,60,2,C
+STU0171,Hina Bose,Mathematics,69,100,74,1,B
+STU0171,Hina Bose,Physics,44,100,49,5,D
+STU0171,Hina Bose,Chemistry,51,100,87,5,C
+STU0171,Hina Bose,Computer Science,46,100,77,4,D
+STU0171,Hina Bose,English,53,100,77,4,C
+STU0171,Hina Bose,Statistics,56,100,71,2,C
+STU0172,Qasim Hussain,Mathematics,81,100,100,4,A
+STU0172,Qasim Hussain,Physics,81,100,89,7,A
+STU0172,Qasim Hussain,Chemistry,80,100,88,8,A
+STU0172,Qasim Hussain,Computer Science,76,100,92,4,B+
+STU0172,Qasim Hussain,English,84,100,88,6,A
+STU0172,Qasim Hussain,Statistics,78,100,86,6,B+
+STU0173,Wahida Nair,Mathematics,90,100,86,8,A+
+STU0173,Wahida Nair,Physics,83,100,90,6,A
+STU0173,Wahida Nair,Chemistry,80,100,100,6,A
+STU0173,Wahida Nair,Computer Science,72,100,73,7,B+
+STU0173,Wahida Nair,English,82,100,100,5,A
+STU0173,Wahida Nair,Statistics,83,100,88,7,A
+STU0174,Qasim Kapoor,Mathematics,55,100,74,0,C
+STU0174,Qasim Kapoor,Physics,61,100,74,1,B
+STU0174,Qasim Kapoor,Chemistry,49,100,64,0,D
+STU0174,Qasim Kapoor,Computer Science,42,100,62,2,D
+STU0174,Qasim Kapoor,English,29,100,67,0,F
+STU0174,Qasim Kapoor,Statistics,42,100,68,2,D
+STU0175,Karthik Pillai,Mathematics,57,100,69,3,C
+STU0175,Karthik Pillai,Physics,63,100,92,4,B
+STU0175,Karthik Pillai,Chemistry,61,100,86,4,B
+STU0175,Karthik Pillai,Computer Science,54,100,54,6,C
+STU0175,Karthik Pillai,English,52,100,88,3,C
+STU0175,Karthik Pillai,Statistics,47,100,89,3,D
+STU0176,Ishaan Patil,Mathematics,66,100,65,4,B
+STU0176,Ishaan Patil,Physics,68,100,73,5,B
+STU0176,Ishaan Patil,Chemistry,75,100,65,5,B+
+STU0176,Ishaan Patil,Computer Science,81,100,78,4,A
+STU0176,Ishaan Patil,English,39,100,79,5,F
+STU0176,Ishaan Patil,Statistics,84,100,85,4,A
+STU0177,Jayant Ansari,Mathematics,77,100,73,4,B+
+STU0177,Jayant Ansari,Physics,35,100,72,1,F
+STU0177,Jayant Ansari,Chemistry,57,100,67,2,C
+STU0177,Jayant Ansari,Computer Science,57,100,77,6,C
+STU0177,Jayant Ansari,English,62,100,74,3,B
+STU0177,Jayant Ansari,Statistics,70,100,61,2,B+
+STU0178,Kavita Patil,Mathematics,70,100,67,3,B+
+STU0178,Kavita Patil,Physics,56,100,70,3,C
+STU0178,Kavita Patil,Chemistry,52,100,68,4,C
+STU0178,Kavita Patil,Computer Science,71,100,78,6,B+
+STU0178,Kavita Patil,English,51,100,53,6,C
+STU0178,Kavita Patil,Statistics,81,100,90,5,A
+STU0179,Brinda Ali,Mathematics,73,100,75,4,B+
+STU0179,Brinda Ali,Physics,63,100,71,4,B
+STU0179,Brinda Ali,Chemistry,72,100,69,2,B+
+STU0179,Brinda Ali,Computer Science,56,100,73,3,C
+STU0179,Brinda Ali,English,69,100,74,3,B
+STU0179,Brinda Ali,Statistics,71,100,72,4,B+
+STU0180,Wahida Bose,Mathematics,75,100,91,5,B+
+STU0180,Wahida Bose,Physics,75,100,74,6,B+
+STU0180,Wahida Bose,Chemistry,72,100,85,6,B+
+STU0180,Wahida Bose,Computer Science,90,100,92,7,A+
+STU0180,Wahida Bose,English,85,100,91,7,A
+STU0180,Wahida Bose,Statistics,96,100,97,6,A+
+STU0181,Jayant Iyer,Mathematics,50,100,54,2,C
+STU0181,Jayant Iyer,Physics,23,100,53,3,F
+STU0181,Jayant Iyer,Chemistry,33,100,57,0,F
+STU0181,Jayant Iyer,Computer Science,23,100,49,1,F
+STU0181,Jayant Iyer,English,39,100,68,3,F
+STU0181,Jayant Iyer,Statistics,28,100,48,0,F
+STU0182,Ojasvi Ansari,Mathematics,77,100,66,3,B+
+STU0182,Ojasvi Ansari,Physics,90,100,82,3,A+
+STU0182,Ojasvi Ansari,Chemistry,78,100,87,2,B+
+STU0182,Ojasvi Ansari,Computer Science,78,100,51,4,B+
+STU0182,Ojasvi Ansari,English,57,100,85,2,C
+STU0182,Ojasvi Ansari,Statistics,43,100,64,5,D
+STU0183,Zubair Nair,Mathematics,85,100,100,6,A
+STU0183,Zubair Nair,Physics,74,100,89,5,B+
+STU0183,Zubair Nair,Chemistry,76,100,91,6,B+
+STU0183,Zubair Nair,Computer Science,89,100,82,6,A
+STU0183,Zubair Nair,English,90,100,100,3,A+
+STU0183,Zubair Nair,Statistics,81,100,84,6,A
+STU0184,Suresh Verma,Mathematics,71,100,72,2,B+
+STU0184,Suresh Verma,Physics,50,100,67,3,C
+STU0184,Suresh Verma,Chemistry,44,100,75,4,D
+STU0184,Suresh Verma,Computer Science,68,100,67,4,B
+STU0184,Suresh Verma,English,67,100,46,3,B
+STU0184,Suresh Verma,Statistics,54,100,78,5,C
+STU0185,Zubair Reddy,Mathematics,64,100,78,4,B
+STU0185,Zubair Reddy,Physics,65,100,74,4,B
+STU0185,Zubair Reddy,Chemistry,51,100,85,2,C
+STU0185,Zubair Reddy,Computer Science,58,100,62,3,C
+STU0185,Zubair Reddy,English,56,100,87,2,C
+STU0185,Zubair Reddy,Statistics,60,100,69,8,B
+STU0186,Omkar Tiwari,Mathematics,48,100,67,2,D
+STU0186,Omkar Tiwari,Physics,55,100,87,3,C
+STU0186,Omkar Tiwari,Chemistry,57,100,82,3,C
+STU0186,Omkar Tiwari,Computer Science,71,100,79,1,B+
+STU0186,Omkar Tiwari,English,100,100,74,1,A+
+STU0186,Omkar Tiwari,Statistics,68,100,69,4,B
+STU0187,Priya Pillai,Mathematics,76,100,80,6,B+
+STU0187,Priya Pillai,Physics,52,100,81,3,C
+STU0187,Priya Pillai,Chemistry,72,100,65,4,B+
+STU0187,Priya Pillai,Computer Science,56,100,70,4,C
+STU0187,Priya Pillai,English,54,100,75,2,C
+STU0187,Priya Pillai,Statistics,47,100,79,5,D
+STU0188,Rahul Ali,Mathematics,10,100,63,2,F
+STU0188,Rahul Ali,Physics,40,100,72,0,D
+STU0188,Rahul Ali,Chemistry,41,100,72,0,D
+STU0188,Rahul Ali,Computer Science,33,100,46,1,F
+STU0188,Rahul Ali,English,45,100,52,0,D
+STU0188,Rahul Ali,Statistics,55,100,68,0,C
+STU0189,Ojasvi Choudhary,Mathematics,33,100,59,2,F
+STU0189,Ojasvi Choudhary,Physics,37,100,50,3,F
+STU0189,Ojasvi Choudhary,Chemistry,5,100,68,2,F
+STU0189,Ojasvi Choudhary,Computer Science,47,100,54,3,D
+STU0189,Ojasvi Choudhary,English,29,100,57,3,F
+STU0189,Ojasvi Choudhary,Statistics,45,100,53,1,D
+STU0190,Manish Mehta,Mathematics,54,100,46,0,C
+STU0190,Manish Mehta,Physics,20,100,65,3,F
+STU0190,Manish Mehta,Chemistry,10,100,49,1,F
+STU0190,Manish Mehta,Computer Science,56,100,60,0,C
+STU0190,Manish Mehta,English,52,100,60,4,C
+STU0190,Manish Mehta,Statistics,42,100,46,4,D
+STU0191,Waqar Das,Mathematics,19,100,40,1,F
+STU0191,Waqar Das,Physics,46,100,59,2,D
+STU0191,Waqar Das,Chemistry,51,100,54,0,C
+STU0191,Waqar Das,Computer Science,18,100,66,2,F
+STU0191,Waqar Das,English,34,100,51,2,F
+STU0191,Waqar Das,Statistics,22,100,54,0,F
+STU0192,Ekta Rao,Mathematics,73,100,95,3,B+
+STU0192,Ekta Rao,Physics,97,100,51,0,A+
+STU0192,Ekta Rao,Chemistry,32,100,85,2,F
+STU0192,Ekta Rao,Computer Science,74,100,73,4,B+
+STU0192,Ekta Rao,English,67,100,70,1,B
+STU0192,Ekta Rao,Statistics,73,100,81,4,B+
+STU0193,Tara Mehta,Mathematics,80,100,82,4,A
+STU0193,Tara Mehta,Physics,75,100,68,5,B+
+STU0193,Tara Mehta,Chemistry,60,100,66,3,B
+STU0193,Tara Mehta,Computer Science,53,100,72,3,C
+STU0193,Tara Mehta,English,47,100,78,2,D
+STU0193,Tara Mehta,Statistics,74,100,91,5,B+
+STU0194,Omkar Saxena,Mathematics,31,100,72,1,F
+STU0194,Omkar Saxena,Physics,23,100,61,0,F
+STU0194,Omkar Saxena,Chemistry,70,100,66,1,B+
+STU0194,Omkar Saxena,Computer Science,28,100,45,3,F
+STU0194,Omkar Saxena,English,46,100,50,2,D
+STU0194,Omkar Saxena,Statistics,33,100,55,0,F
+STU0195,Yash Tiwari,Mathematics,79,100,72,0,B+
+STU0195,Yash Tiwari,Physics,83,100,85,6,A
+STU0195,Yash Tiwari,Chemistry,77,100,89,2,B+
+STU0195,Yash Tiwari,Computer Science,55,100,69,5,C
+STU0195,Yash Tiwari,English,43,100,72,5,D
+STU0195,Yash Tiwari,Statistics,67,100,90,2,B
+STU0196,Uma Verma,Mathematics,40,100,55,0,D
+STU0196,Uma Verma,Physics,40,100,62,0,D
+STU0196,Uma Verma,Chemistry,33,100,67,0,F
+STU0196,Uma Verma,Computer Science,65,100,59,1,B
+STU0196,Uma Verma,English,26,100,46,1,F
+STU0196,Uma Verma,Statistics,54,100,67,1,C
+STU0197,Hemant Choudhary,Mathematics,66,100,64,2,B
+STU0197,Hemant Choudhary,Physics,23,100,71,2,F
+STU0197,Hemant Choudhary,Chemistry,58,100,51,2,C
+STU0197,Hemant Choudhary,Computer Science,33,100,51,1,F
+STU0197,Hemant Choudhary,English,35,100,54,3,F
+STU0197,Hemant Choudhary,Statistics,34,100,37,2,F
+STU0198,Abhinav Tiwari,Mathematics,54,100,52,4,C
+STU0198,Abhinav Tiwari,Physics,56,100,69,5,C
+STU0198,Abhinav Tiwari,Chemistry,69,100,73,6,B
+STU0198,Abhinav Tiwari,Computer Science,75,100,78,5,B+
+STU0198,Abhinav Tiwari,English,63,100,84,4,B
+STU0198,Abhinav Tiwari,Statistics,69,100,64,3,B
+STU0199,Bhavna Gupta,Mathematics,73,100,78,5,B+
+STU0199,Bhavna Gupta,Physics,78,100,79,5,B+
+STU0199,Bhavna Gupta,Chemistry,47,100,82,5,D
+STU0199,Bhavna Gupta,Computer Science,85,100,89,7,A
+STU0199,Bhavna Gupta,English,47,100,71,2,D
+STU0199,Bhavna Gupta,Statistics,76,100,72,8,B+
+STU0200,Disha Malhotra,Mathematics,66,100,100,2,B
+STU0200,Disha Malhotra,Physics,62,100,74,5,B
+STU0200,Disha Malhotra,Chemistry,57,100,79,3,C
+STU0200,Disha Malhotra,Computer Science,72,100,75,3,B+
+STU0200,Disha Malhotra,English,67,100,78,3,B
+STU0200,Disha Malhotra,Statistics,50,100,77,5,C
+STU0201,Waqar Tiwari,Mathematics,89,100,81,7,A
+STU0201,Waqar Tiwari,Physics,85,100,100,3,A
+STU0201,Waqar Tiwari,Chemistry,77,100,80,5,B+
+STU0201,Waqar Tiwari,Computer Science,90,100,91,3,A+
+STU0201,Waqar Tiwari,English,86,100,91,2,A
+STU0201,Waqar Tiwari,Statistics,78,100,81,5,B+
+STU0202,Jaya Patel,Mathematics,65,100,99,4,B
+STU0202,Jaya Patel,Physics,72,100,81,6,B+
+STU0202,Jaya Patel,Chemistry,78,100,70,4,B+
+STU0202,Jaya Patel,Computer Science,67,100,87,4,B
+STU0202,Jaya Patel,English,49,100,75,5,D
+STU0202,Jaya Patel,Statistics,70,100,68,6,B+
+STU0203,Pallavi Desai,Mathematics,86,100,46,4,A
+STU0203,Pallavi Desai,Physics,69,100,88,4,B
+STU0203,Pallavi Desai,Chemistry,54,100,86,5,C
+STU0203,Pallavi Desai,Computer Science,59,100,85,3,C
+STU0203,Pallavi Desai,English,59,100,61,5,C
+STU0203,Pallavi Desai,Statistics,68,100,48,7,B
+STU0204,Karthik Tiwari,Mathematics,60,100,87,1,B
+STU0204,Karthik Tiwari,Physics,65,100,66,1,B
+STU0204,Karthik Tiwari,Chemistry,67,100,65,3,B
+STU0204,Karthik Tiwari,Computer Science,62,100,78,1,B
+STU0204,Karthik Tiwari,English,57,100,71,5,C
+STU0204,Karthik Tiwari,Statistics,54,100,78,3,C
+STU0205,Ishaan Ali,Mathematics,56,100,63,3,C
+STU0205,Ishaan Ali,Physics,81,100,74,5,A
+STU0205,Ishaan Ali,Chemistry,55,100,76,2,C
+STU0205,Ishaan Ali,Computer Science,59,100,57,2,C
+STU0205,Ishaan Ali,English,57,100,68,5,C
+STU0205,Ishaan Ali,Statistics,74,100,85,2,B+
+STU0206,Nandita Bose,Mathematics,69,100,68,0,B
+STU0206,Nandita Bose,Physics,59,100,82,5,C
+STU0206,Nandita Bose,Chemistry,77,100,68,4,B+
+STU0206,Nandita Bose,Computer Science,59,100,57,0,C
+STU0206,Nandita Bose,English,59,100,88,5,C
+STU0206,Nandita Bose,Statistics,63,100,64,5,B
+STU0207,Farida Menon,Mathematics,65,100,74,3,B
+STU0207,Farida Menon,Physics,48,100,68,3,D
+STU0207,Farida Menon,Chemistry,63,100,58,3,B
+STU0207,Farida Menon,Computer Science,60,100,77,6,B
+STU0207,Farida Menon,English,75,100,62,3,B+
+STU0207,Farida Menon,Statistics,78,100,81,6,B+
+STU0208,Divya Gupta,Mathematics,75,100,65,4,B+
+STU0208,Divya Gupta,Physics,64,100,82,2,B
+STU0208,Divya Gupta,Chemistry,61,100,50,5,B
+STU0208,Divya Gupta,Computer Science,68,100,66,1,B
+STU0208,Divya Gupta,English,48,100,71,1,D
+STU0208,Divya Gupta,Statistics,68,100,74,3,B
+STU0209,Shreya Patel,Mathematics,89,100,89,3,A
+STU0209,Shreya Patel,Physics,79,100,88,3,B+
+STU0209,Shreya Patel,Chemistry,83,100,88,6,A
+STU0209,Shreya Patel,Computer Science,87,100,99,4,A
+STU0209,Shreya Patel,English,93,100,82,5,A+
+STU0209,Shreya Patel,Statistics,100,100,81,7,A+
+STU0210,Farhan Das,Mathematics,78,100,84,5,B+
+STU0210,Farhan Das,Physics,81,100,96,4,A
+STU0210,Farhan Das,Chemistry,91,100,93,6,A+
+STU0210,Farhan Das,Computer Science,90,100,87,7,A+
+STU0210,Farhan Das,English,91,100,91,6,A+
+STU0210,Farhan Das,Statistics,88,100,100,7,A
+STU0211,Chirag Kumar,Mathematics,49,100,53,3,D
+STU0211,Chirag Kumar,Physics,43,100,47,0,D
+STU0211,Chirag Kumar,Chemistry,42,100,50,0,D
+STU0211,Chirag Kumar,Computer Science,10,100,66,1,F
+STU0211,Chirag Kumar,English,41,100,61,2,D
+STU0211,Chirag Kumar,Statistics,39,100,58,0,F
+STU0212,Waqar Desai,Mathematics,60,100,74,3,B
+STU0212,Waqar Desai,Physics,45,100,78,3,D
+STU0212,Waqar Desai,Chemistry,82,100,71,3,A
+STU0212,Waqar Desai,Computer Science,55,100,80,3,C
+STU0212,Waqar Desai,English,67,100,51,4,B
+STU0212,Waqar Desai,Statistics,58,100,69,4,C
+STU0213,Tara Menon,Mathematics,61,100,83,3,B
+STU0213,Tara Menon,Physics,70,100,76,3,B+
+STU0213,Tara Menon,Chemistry,68,100,80,2,B
+STU0213,Tara Menon,Computer Science,60,100,77,3,B
+STU0213,Tara Menon,English,52,100,72,2,C
+STU0213,Tara Menon,Statistics,57,100,61,2,C
+STU0214,Abhinav Pillai,Mathematics,19,100,80,3,F
+STU0214,Abhinav Pillai,Physics,40,100,67,0,D
+STU0214,Abhinav Pillai,Chemistry,35,100,63,0,F
+STU0214,Abhinav Pillai,Computer Science,38,100,42,1,F
+STU0214,Abhinav Pillai,English,51,100,79,2,C
+STU0214,Abhinav Pillai,Statistics,54,100,74,2,C
+STU0215,Zara Ali,Mathematics,78,100,70,4,B+
+STU0215,Zara Ali,Physics,79,100,90,3,B+
+STU0215,Zara Ali,Chemistry,78,100,65,5,B+
+STU0215,Zara Ali,Computer Science,64,100,71,5,B
+STU0215,Zara Ali,English,50,100,73,5,C
+STU0215,Zara Ali,Statistics,84,100,85,2,A
+STU0216,Laxman Verma,Mathematics,37,100,47,0,F
+STU0216,Laxman Verma,Physics,44,100,59,2,D
+STU0216,Laxman Verma,Chemistry,35,100,60,3,F
+STU0216,Laxman Verma,Computer Science,38,100,57,3,F
+STU0216,Laxman Verma,English,63,100,61,1,B
+STU0216,Laxman Verma,Statistics,40,100,61,0,D
+STU0217,Wahida Gupta,Mathematics,21,100,58,2,F
+STU0217,Wahida Gupta,Physics,35,100,59,0,F
+STU0217,Wahida Gupta,Chemistry,42,100,68,1,D
+STU0217,Wahida Gupta,Computer Science,47,100,42,3,D
+STU0217,Wahida Gupta,English,35,100,41,0,F
+STU0217,Wahida Gupta,Statistics,37,100,68,3,F
+STU0218,Chirag Pillai,Mathematics,65,100,75,3,B
+STU0218,Chirag Pillai,Physics,64,100,64,3,B
+STU0218,Chirag Pillai,Chemistry,60,100,77,3,B
+STU0218,Chirag Pillai,Computer Science,26,100,96,3,F
+STU0218,Chirag Pillai,English,51,100,73,4,C
+STU0218,Chirag Pillai,Statistics,67,100,47,3,B
+STU0219,Gaurav Rao,Mathematics,36,100,46,1,F
+STU0219,Gaurav Rao,Physics,34,100,53,1,F
+STU0219,Gaurav Rao,Chemistry,33,100,62,2,F
+STU0219,Gaurav Rao,Computer Science,34,100,80,0,F
+STU0219,Gaurav Rao,English,35,100,44,1,F
+STU0219,Gaurav Rao,Statistics,47,100,68,4,D
+STU0220,Laxman Kumar,Mathematics,25,100,70,0,F
+STU0220,Laxman Kumar,Physics,17,100,52,4,F
+STU0220,Laxman Kumar,Chemistry,37,100,42,3,F
+STU0220,Laxman Kumar,Computer Science,40,100,64,2,D
+STU0220,Laxman Kumar,English,31,100,67,0,F
+STU0220,Laxman Kumar,Statistics,24,100,60,4,F
+STU0221,Aishwarya Reddy,Mathematics,64,100,70,3,B
+STU0221,Aishwarya Reddy,Physics,78,100,74,2,B+
+STU0221,Aishwarya Reddy,Chemistry,67,100,71,3,B
+STU0221,Aishwarya Reddy,Computer Science,48,100,100,3,D
+STU0221,Aishwarya Reddy,English,51,100,77,2,C
+STU0221,Aishwarya Reddy,Statistics,56,100,79,2,C
+STU0222,Rahul Saxena,Mathematics,58,100,67,6,C
+STU0222,Rahul Saxena,Physics,57,100,73,4,C
+STU0222,Rahul Saxena,Chemistry,67,100,98,1,B
+STU0222,Rahul Saxena,Computer Science,71,100,67,2,B+
+STU0222,Rahul Saxena,English,73,100,83,2,B+
+STU0222,Rahul Saxena,Statistics,47,100,80,5,D
+STU0223,Eshan Choudhary,Mathematics,78,100,64,3,B+
+STU0223,Eshan Choudhary,Physics,37,100,78,4,F
+STU0223,Eshan Choudhary,Chemistry,72,100,77,0,B+
+STU0223,Eshan Choudhary,Computer Science,54,100,86,4,C
+STU0223,Eshan Choudhary,English,67,100,85,3,B
+STU0223,Eshan Choudhary,Statistics,78,100,57,3,B+
+STU0224,Xena Rao,Mathematics,83,100,74,2,A
+STU0224,Xena Rao,Physics,68,100,62,3,B
+STU0224,Xena Rao,Chemistry,68,100,71,5,B
+STU0224,Xena Rao,Computer Science,91,100,76,6,A+
+STU0224,Xena Rao,English,58,100,68,5,C
+STU0224,Xena Rao,Statistics,80,100,77,3,A
+STU0225,Priya Roy,Mathematics,70,100,58,4,B+
+STU0225,Priya Roy,Physics,81,100,68,1,A
+STU0225,Priya Roy,Chemistry,47,100,78,5,D
+STU0225,Priya Roy,Computer Science,72,100,74,4,B+
+STU0225,Priya Roy,English,52,100,74,1,C
+STU0225,Priya Roy,Statistics,50,100,76,1,C
+STU0226,Jayant Ali,Mathematics,55,100,78,2,C
+STU0226,Jayant Ali,Physics,57,100,81,4,C
+STU0226,Jayant Ali,Chemistry,78,100,84,1,B+
+STU0226,Jayant Ali,Computer Science,53,100,70,5,C
+STU0226,Jayant Ali,English,69,100,76,2,B
+STU0226,Jayant Ali,Statistics,63,100,71,4,B
+STU0227,Divya Tiwari,Mathematics,73,100,84,5,B+
+STU0227,Divya Tiwari,Physics,64,100,67,5,B
+STU0227,Divya Tiwari,Chemistry,80,100,71,2,A
+STU0227,Divya Tiwari,Computer Science,44,100,80,6,D
+STU0227,Divya Tiwari,English,62,100,66,2,B
+STU0227,Divya Tiwari,Statistics,39,100,85,2,F
+STU0228,Omkar Mehta,Mathematics,69,100,76,4,B
+STU0228,Omkar Mehta,Physics,51,100,75,5,C
+STU0228,Omkar Mehta,Chemistry,55,100,73,6,C
+STU0228,Omkar Mehta,Computer Science,57,100,61,2,C
+STU0228,Omkar Mehta,English,50,100,78,0,C
+STU0228,Omkar Mehta,Statistics,40,100,71,2,D
+STU0229,Brinda Verma,Mathematics,45,100,85,6,D
+STU0229,Brinda Verma,Physics,50,100,64,3,C
+STU0229,Brinda Verma,Chemistry,68,100,67,2,B
+STU0229,Brinda Verma,Computer Science,60,100,70,3,B
+STU0229,Brinda Verma,English,59,100,71,5,C
+STU0229,Brinda Verma,Statistics,64,100,66,2,B
+STU0230,Aarav Joshi,Mathematics,87,100,92,4,A
+STU0230,Aarav Joshi,Physics,86,100,100,4,A
+STU0230,Aarav Joshi,Chemistry,80,100,83,5,A
+STU0230,Aarav Joshi,Computer Science,92,100,100,5,A+
+STU0230,Aarav Joshi,English,82,100,94,6,A
+STU0230,Aarav Joshi,Statistics,86,100,98,6,A
+STU0231,Manish Sharma,Mathematics,39,100,79,4,F
+STU0231,Manish Sharma,Physics,63,100,81,2,B
+STU0231,Manish Sharma,Chemistry,55,100,81,5,C
+STU0231,Manish Sharma,Computer Science,93,100,76,3,A+
+STU0231,Manish Sharma,English,59,100,61,4,C
+STU0231,Manish Sharma,Statistics,59,100,80,2,C
+STU0232,Laxman Mehta,Mathematics,51,100,85,3,C
+STU0232,Laxman Mehta,Physics,62,100,79,3,B
+STU0232,Laxman Mehta,Chemistry,64,100,74,0,B
+STU0232,Laxman Mehta,Computer Science,66,100,84,1,B
+STU0232,Laxman Mehta,English,55,100,64,3,C
+STU0232,Laxman Mehta,Statistics,77,100,53,2,B+
+STU0233,Zara Sharma,Mathematics,49,100,81,7,D
+STU0233,Zara Sharma,Physics,55,100,55,4,C
+STU0233,Zara Sharma,Chemistry,58,100,70,4,C
+STU0233,Zara Sharma,Computer Science,57,100,75,5,C
+STU0233,Zara Sharma,English,63,100,80,5,B
+STU0233,Zara Sharma,Statistics,64,100,91,5,B
+STU0234,Disha Gupta,Mathematics,58,100,79,2,C
+STU0234,Disha Gupta,Physics,67,100,61,4,B
+STU0234,Disha Gupta,Chemistry,66,100,79,3,B
+STU0234,Disha Gupta,Computer Science,42,100,78,3,D
+STU0234,Disha Gupta,English,54,100,94,6,C
+STU0234,Disha Gupta,Statistics,59,100,77,3,C
+STU0235,Meera Bose,Mathematics,28,100,39,0,F
+STU0235,Meera Bose,Physics,27,100,54,2,F
+STU0235,Meera Bose,Chemistry,24,100,59,1,F
+STU0235,Meera Bose,Computer Science,38,100,72,1,F
+STU0235,Meera Bose,English,54,100,56,2,C
+STU0235,Meera Bose,Statistics,37,100,56,2,F
+STU0236,Vani Ali,Mathematics,61,100,84,3,B
+STU0236,Vani Ali,Physics,69,100,77,3,B
+STU0236,Vani Ali,Chemistry,68,100,87,2,B
+STU0236,Vani Ali,Computer Science,59,100,89,3,C
+STU0236,Vani Ali,English,53,100,59,4,C
+STU0236,Vani Ali,Statistics,59,100,86,3,C
+STU0237,Aarav Desai,Mathematics,28,100,69,3,F
+STU0237,Aarav Desai,Physics,54,100,69,4,C
+STU0237,Aarav Desai,Chemistry,68,100,58,4,B
+STU0237,Aarav Desai,Computer Science,71,100,90,4,B+
+STU0237,Aarav Desai,English,81,100,76,3,A
+STU0237,Aarav Desai,Statistics,53,100,69,5,C
+STU0238,Riya Singh,Mathematics,53,100,90,3,C
+STU0238,Riya Singh,Physics,46,100,82,7,D
+STU0238,Riya Singh,Chemistry,61,100,69,2,B
+STU0238,Riya Singh,Computer Science,65,100,83,3,B
+STU0238,Riya Singh,English,52,100,75,2,C
+STU0238,Riya Singh,Statistics,59,100,73,3,C
+STU0239,Tara Ali,Mathematics,45,100,69,2,D
+STU0239,Tara Ali,Physics,61,100,77,3,B
+STU0239,Tara Ali,Chemistry,72,100,81,2,B+
+STU0239,Tara Ali,Computer Science,66,100,65,6,B
+STU0239,Tara Ali,English,63,100,67,3,B
+STU0239,Tara Ali,Statistics,63,100,69,5,B
+STU0240,Chetan Agarwal,Mathematics,55,100,58,3,C
+STU0240,Chetan Agarwal,Physics,38,100,74,3,F
+STU0240,Chetan Agarwal,Chemistry,69,100,82,3,B
+STU0240,Chetan Agarwal,Computer Science,54,100,51,2,C
+STU0240,Chetan Agarwal,English,31,100,70,6,F
+STU0240,Chetan Agarwal,Statistics,66,100,80,5,B
+STU0241,Karthik Mehta,Mathematics,79,100,78,6,B+
+STU0241,Karthik Mehta,Physics,85,100,75,5,A
+STU0241,Karthik Mehta,Chemistry,86,100,100,7,A
+STU0241,Karthik Mehta,Computer Science,81,100,84,3,A
+STU0241,Karthik Mehta,English,97,100,85,4,A+
+STU0241,Karthik Mehta,Statistics,89,100,91,7,A
+STU0242,Riya Bose,Mathematics,72,100,97,6,B+
+STU0242,Riya Bose,Physics,92,100,64,4,A+
+STU0242,Riya Bose,Chemistry,75,100,92,7,B+
+STU0242,Riya Bose,Computer Science,79,100,87,6,B+
+STU0242,Riya Bose,English,100,100,81,6,A+
+STU0242,Riya Bose,Statistics,81,100,87,7,A
+STU0243,Gayatri Ansari,Mathematics,46,100,44,2,D
+STU0243,Gayatri Ansari,Physics,20,100,73,1,F
+STU0243,Gayatri Ansari,Chemistry,42,100,73,0,D
+STU0243,Gayatri Ansari,Computer Science,27,100,46,3,F
+STU0243,Gayatri Ansari,English,33,100,46,2,F
+STU0243,Gayatri Ansari,Statistics,31,100,61,3,F
+STU0244,Meera D'Souza,Mathematics,88,100,100,3,A
+STU0244,Meera D'Souza,Physics,90,100,88,7,A+
+STU0244,Meera D'Souza,Chemistry,75,100,82,6,B+
+STU0244,Meera D'Souza,Computer Science,85,100,100,6,A
+STU0244,Meera D'Souza,English,79,100,91,4,B+
+STU0244,Meera D'Souza,Statistics,74,100,100,4,B+
+STU0245,Chetan Iyer,Mathematics,62,100,76,0,B
+STU0245,Chetan Iyer,Physics,71,100,77,3,B+
+STU0245,Chetan Iyer,Chemistry,55,100,61,5,C
+STU0245,Chetan Iyer,Computer Science,71,100,82,5,B+
+STU0245,Chetan Iyer,English,53,100,73,2,C
+STU0245,Chetan Iyer,Statistics,80,100,67,2,A
+STU0246,Uday Pillai,Mathematics,88,100,73,4,A
+STU0246,Uday Pillai,Physics,90,100,97,4,A+
+STU0246,Uday Pillai,Chemistry,79,100,94,5,B+
+STU0246,Uday Pillai,Computer Science,97,100,97,4,A+
+STU0246,Uday Pillai,English,83,100,99,8,A
+STU0246,Uday Pillai,Statistics,92,100,92,4,A+
+STU0247,Indira Patil,Mathematics,89,100,81,3,A
+STU0247,Indira Patil,Physics,56,100,73,4,C
+STU0247,Indira Patil,Chemistry,69,100,84,0,B
+STU0247,Indira Patil,Computer Science,53,100,69,4,C
+STU0247,Indira Patil,English,72,100,67,6,B+
+STU0247,Indira Patil,Statistics,74,100,69,3,B+
+STU0248,Lakshmi Sharma,Mathematics,97,100,91,6,A+
+STU0248,Lakshmi Sharma,Physics,84,100,94,7,A
+STU0248,Lakshmi Sharma,Chemistry,89,100,100,2,A
+STU0248,Lakshmi Sharma,Computer Science,79,100,100,4,B+
+STU0248,Lakshmi Sharma,English,88,100,81,6,A
+STU0248,Lakshmi Sharma,Statistics,80,100,77,7,A
+STU0249,Nandita Rao,Mathematics,57,100,74,2,C
+STU0249,Nandita Rao,Physics,73,100,70,4,B+
+STU0249,Nandita Rao,Chemistry,35,100,84,2,F
+STU0249,Nandita Rao,Computer Science,76,100,84,4,B+
+STU0249,Nandita Rao,English,51,100,68,1,C
+STU0249,Nandita Rao,Statistics,55,100,64,3,C
+STU0250,Aishwarya Tiwari,Mathematics,67,100,70,3,B
+STU0250,Aishwarya Tiwari,Physics,41,100,75,2,D
+STU0250,Aishwarya Tiwari,Chemistry,53,100,68,3,C
+STU0250,Aishwarya Tiwari,Computer Science,68,100,66,4,B
+STU0250,Aishwarya Tiwari,English,77,100,63,5,B+
+STU0250,Aishwarya Tiwari,Statistics,79,100,66,2,B+
+STU0251,Farida Mehta,Mathematics,63,100,88,6,B
+STU0251,Farida Mehta,Physics,65,100,75,6,B
+STU0251,Farida Mehta,Chemistry,53,100,72,2,C
+STU0251,Farida Mehta,Computer Science,62,100,80,1,B
+STU0251,Farida Mehta,English,56,100,82,3,C
+STU0251,Farida Mehta,Statistics,48,100,78,4,D
+STU0252,Manish Iyer,Mathematics,53,100,64,1,C
+STU0252,Manish Iyer,Physics,54,100,58,2,C
+STU0252,Manish Iyer,Chemistry,25,100,56,3,F
+STU0252,Manish Iyer,Computer Science,34,100,34,0,F
+STU0252,Manish Iyer,English,42,100,53,3,D
+STU0252,Manish Iyer,Statistics,59,100,63,2,C
+STU0253,Hina Tiwari,Mathematics,72,100,73,5,B+
+STU0253,Hina Tiwari,Physics,47,100,77,4,D
+STU0253,Hina Tiwari,Chemistry,73,100,60,2,B+
+STU0253,Hina Tiwari,Computer Science,64,100,52,4,B
+STU0253,Hina Tiwari,English,73,100,64,4,B+
+STU0253,Hina Tiwari,Statistics,73,100,71,1,B+
+STU0254,Uma Choudhary,Mathematics,74,100,77,0,B+
+STU0254,Uma Choudhary,Physics,35,100,80,3,F
+STU0254,Uma Choudhary,Chemistry,52,100,75,3,C
+STU0254,Uma Choudhary,Computer Science,83,100,95,4,A
+STU0254,Uma Choudhary,English,66,100,75,3,B
+STU0254,Uma Choudhary,Statistics,53,100,79,4,C
+STU0255,Karthik Ali,Mathematics,97,100,75,5,A+
+STU0255,Karthik Ali,Physics,79,100,90,5,B+
+STU0255,Karthik Ali,Chemistry,90,100,100,5,A+
+STU0255,Karthik Ali,Computer Science,78,100,89,4,B+
+STU0255,Karthik Ali,English,82,100,72,7,A
+STU0255,Karthik Ali,Statistics,90,100,93,8,A+
+STU0256,Omkar Kapoor,Mathematics,81,100,88,8,A
+STU0256,Omkar Kapoor,Physics,88,100,82,7,A
+STU0256,Omkar Kapoor,Chemistry,87,100,83,5,A
+STU0256,Omkar Kapoor,Computer Science,82,100,88,4,A
+STU0256,Omkar Kapoor,English,80,100,89,5,A
+STU0256,Omkar Kapoor,Statistics,94,100,100,4,A+
+STU0257,Ishaan Reddy,Mathematics,76,100,84,4,B+
+STU0257,Ishaan Reddy,Physics,95,100,100,7,A+
+STU0257,Ishaan Reddy,Chemistry,85,100,98,4,A
+STU0257,Ishaan Reddy,Computer Science,73,100,98,5,B+
+STU0257,Ishaan Reddy,English,87,100,94,6,A
+STU0257,Ishaan Reddy,Statistics,91,100,78,4,A+
+STU0258,Karthik Patil,Mathematics,92,100,100,5,A+
+STU0258,Karthik Patil,Physics,97,100,68,3,A+
+STU0258,Karthik Patil,Chemistry,86,100,87,7,A
+STU0258,Karthik Patil,Computer Science,82,100,86,4,A
+STU0258,Karthik Patil,English,93,100,91,3,A+
+STU0258,Karthik Patil,Statistics,85,100,93,10,A
+STU0259,Uday Kumar,Mathematics,67,100,70,5,B
+STU0259,Uday Kumar,Physics,45,100,58,2,D
+STU0259,Uday Kumar,Chemistry,84,100,66,5,A
+STU0259,Uday Kumar,Computer Science,73,100,83,5,B+
+STU0259,Uday Kumar,English,49,100,81,2,D
+STU0259,Uday Kumar,Statistics,52,100,70,3,C
+STU0260,Chirag Singh,Mathematics,82,100,100,5,A
+STU0260,Chirag Singh,Physics,80,100,90,6,A
+STU0260,Chirag Singh,Chemistry,84,100,92,7,A
+STU0260,Chirag Singh,Computer Science,86,100,81,5,A
+STU0260,Chirag Singh,English,87,100,88,5,A
+STU0260,Chirag Singh,Statistics,79,100,97,5,B+
+STU0261,Xena Hussain,Mathematics,61,100,77,3,B
+STU0261,Xena Hussain,Physics,40,100,71,4,D
+STU0261,Xena Hussain,Chemistry,61,100,75,2,B
+STU0261,Xena Hussain,Computer Science,60,100,56,3,B
+STU0261,Xena Hussain,English,47,100,84,3,D
+STU0261,Xena Hussain,Statistics,61,100,71,3,B
+STU0262,Priya Agarwal,Mathematics,64,100,67,7,B
+STU0262,Priya Agarwal,Physics,49,100,69,7,D
+STU0262,Priya Agarwal,Chemistry,47,100,88,4,D
+STU0262,Priya Agarwal,Computer Science,76,100,86,2,B+
+STU0262,Priya Agarwal,English,54,100,90,1,C
+STU0262,Priya Agarwal,Statistics,39,100,67,2,F
+STU0263,Pallavi Hussain,Mathematics,73,100,91,3,B+
+STU0263,Pallavi Hussain,Physics,63,100,80,0,B
+STU0263,Pallavi Hussain,Chemistry,62,100,70,3,B
+STU0263,Pallavi Hussain,Computer Science,78,100,76,5,B+
+STU0263,Pallavi Hussain,English,60,100,78,3,B
+STU0263,Pallavi Hussain,Statistics,60,100,67,4,B
+STU0264,Tara Patel,Mathematics,52,100,55,2,C
+STU0264,Tara Patel,Physics,54,100,56,1,C
+STU0264,Tara Patel,Chemistry,29,100,59,0,F
+STU0264,Tara Patel,Computer Science,36,100,53,2,F
+STU0264,Tara Patel,English,39,100,46,2,F
+STU0264,Tara Patel,Statistics,49,100,60,0,D
+STU0265,Jayant Choudhary,Mathematics,80,100,97,6,A
+STU0265,Jayant Choudhary,Physics,91,100,72,6,A+
+STU0265,Jayant Choudhary,Chemistry,98,100,82,4,A+
+STU0265,Jayant Choudhary,Computer Science,95,100,91,6,A+
+STU0265,Jayant Choudhary,English,73,100,82,3,B+
+STU0265,Jayant Choudhary,Statistics,81,100,85,3,A
+STU0266,Nandita Pillai,Mathematics,57,100,78,3,C
+STU0266,Nandita Pillai,Physics,73,100,76,4,B+
+STU0266,Nandita Pillai,Chemistry,48,100,88,3,D
+STU0266,Nandita Pillai,Computer Science,62,100,70,2,B
+STU0266,Nandita Pillai,English,79,100,54,4,B+
+STU0266,Nandita Pillai,Statistics,65,100,75,3,B
+STU0267,Abhinav Ali,Mathematics,95,100,97,5,A+
+STU0267,Abhinav Ali,Physics,84,100,100,8,A
+STU0267,Abhinav Ali,Chemistry,72,100,100,4,B+
+STU0267,Abhinav Ali,Computer Science,91,100,91,6,A+
+STU0267,Abhinav Ali,English,85,100,85,7,A
+STU0267,Abhinav Ali,Statistics,85,100,83,5,A
+STU0268,Indira Gupta,Mathematics,95,100,57,4,A+
+STU0268,Indira Gupta,Physics,43,100,77,3,D
+STU0268,Indira Gupta,Chemistry,54,100,74,2,C
+STU0268,Indira Gupta,Computer Science,52,100,76,3,C
+STU0268,Indira Gupta,English,66,100,78,5,B
+STU0268,Indira Gupta,Statistics,58,100,96,3,C
+STU0269,Tanmay Malhotra,Mathematics,90,100,74,7,A+
+STU0269,Tanmay Malhotra,Physics,89,100,100,7,A
+STU0269,Tanmay Malhotra,Chemistry,77,100,78,6,B+
+STU0269,Tanmay Malhotra,Computer Science,85,100,93,9,A
+STU0269,Tanmay Malhotra,English,83,100,83,4,A
+STU0269,Tanmay Malhotra,Statistics,85,100,95,4,A
+STU0270,Jaya Saxena,Mathematics,57,100,74,2,C
+STU0270,Jaya Saxena,Physics,75,100,75,5,B+
+STU0270,Jaya Saxena,Chemistry,54,100,95,2,C
+STU0270,Jaya Saxena,Computer Science,57,100,64,3,C
+STU0270,Jaya Saxena,English,59,100,78,4,C
+STU0270,Jaya Saxena,Statistics,77,100,56,3,B+
+STU0271,Vani Mehta,Mathematics,61,100,68,2,B
+STU0271,Vani Mehta,Physics,53,100,70,3,C
+STU0271,Vani Mehta,Chemistry,45,100,59,3,D
+STU0271,Vani Mehta,Computer Science,34,100,67,1,F
+STU0271,Vani Mehta,English,64,100,51,3,B
+STU0271,Vani Mehta,Statistics,56,100,73,1,C
+STU0272,Chirag Hussain,Mathematics,63,100,99,3,B
+STU0272,Chirag Hussain,Physics,43,100,76,3,D
+STU0272,Chirag Hussain,Chemistry,71,100,69,2,B+
+STU0272,Chirag Hussain,Computer Science,77,100,58,2,B+
+STU0272,Chirag Hussain,English,63,100,69,5,B
+STU0272,Chirag Hussain,Statistics,80,100,75,2,A
+STU0273,Ishaan Patel,Mathematics,42,100,67,5,D
+STU0273,Ishaan Patel,Physics,49,100,66,3,D
+STU0273,Ishaan Patel,Chemistry,65,100,94,3,B
+STU0273,Ishaan Patel,Computer Science,73,100,67,2,B+
+STU0273,Ishaan Patel,English,67,100,76,5,B
+STU0273,Ishaan Patel,Statistics,71,100,67,0,B+
+STU0274,Eshan Mehta,Mathematics,79,100,68,8,B+
+STU0274,Eshan Mehta,Physics,56,100,91,4,C
+STU0274,Eshan Mehta,Chemistry,84,100,71,1,A
+STU0274,Eshan Mehta,Computer Science,60,100,83,4,B
+STU0274,Eshan Mehta,English,53,100,77,3,C
+STU0274,Eshan Mehta,Statistics,68,100,85,3,B
+STU0275,Jaya Kumar,Mathematics,60,100,78,4,B
+STU0275,Jaya Kumar,Physics,71,100,82,5,B+
+STU0275,Jaya Kumar,Chemistry,54,100,94,4,C
+STU0275,Jaya Kumar,Computer Science,38,100,66,4,F
+STU0275,Jaya Kumar,English,74,100,78,5,B+
+STU0275,Jaya Kumar,Statistics,69,100,71,4,B
+STU0276,Gayatri Gupta,Mathematics,59,100,77,4,C
+STU0276,Gayatri Gupta,Physics,72,100,69,4,B+
+STU0276,Gayatri Gupta,Chemistry,60,100,68,3,B
+STU0276,Gayatri Gupta,Computer Science,63,100,79,2,B
+STU0276,Gayatri Gupta,English,59,100,78,2,C
+STU0276,Gayatri Gupta,Statistics,68,100,99,4,B
+STU0277,Xena Choudhary,Mathematics,60,100,41,2,B
+STU0277,Xena Choudhary,Physics,36,100,40,1,F
+STU0277,Xena Choudhary,Chemistry,23,100,48,0,F
+STU0277,Xena Choudhary,Computer Science,32,100,52,2,F
+STU0277,Xena Choudhary,English,14,100,68,2,F
+STU0277,Xena Choudhary,Statistics,32,100,69,4,F
+STU0278,Divya Das,Mathematics,82,100,90,6,A
+STU0278,Divya Das,Physics,86,100,97,5,A
+STU0278,Divya Das,Chemistry,82,100,92,5,A
+STU0278,Divya Das,Computer Science,86,100,83,7,A
+STU0278,Divya Das,English,76,100,85,5,B+
+STU0278,Divya Das,Statistics,81,100,88,4,A
+STU0279,Karthik Ansari,Mathematics,65,100,69,4,B
+STU0279,Karthik Ansari,Physics,39,100,61,3,F
+STU0279,Karthik Ansari,Chemistry,65,100,79,3,B
+STU0279,Karthik Ansari,Computer Science,82,100,66,2,A
+STU0279,Karthik Ansari,English,52,100,69,4,C
+STU0279,Karthik Ansari,Statistics,71,100,69,2,B+
+STU0280,Uma Pillai,Mathematics,18,100,65,3,F
+STU0280,Uma Pillai,Physics,52,100,68,2,C
+STU0280,Uma Pillai,Chemistry,34,100,69,1,F
+STU0280,Uma Pillai,Computer Science,45,100,48,4,D
+STU0280,Uma Pillai,English,40,100,65,3,D
+STU0280,Uma Pillai,Statistics,53,100,54,3,C
+STU0281,Priya Gupta,Mathematics,73,100,86,8,B+
+STU0281,Priya Gupta,Physics,81,100,80,7,A
+STU0281,Priya Gupta,Chemistry,83,100,100,6,A
+STU0281,Priya Gupta,Computer Science,87,100,83,6,A
+STU0281,Priya Gupta,English,93,100,97,9,A+
+STU0281,Priya Gupta,Statistics,92,100,77,9,A+
+STU0282,Uday Desai,Mathematics,79,100,98,4,B+
+STU0282,Uday Desai,Physics,68,100,95,4,B
+STU0282,Uday Desai,Chemistry,86,100,99,4,A
+STU0282,Uday Desai,Computer Science,78,100,86,4,B+
+STU0282,Uday Desai,English,79,100,84,5,B+
+STU0282,Uday Desai,Statistics,98,100,83,6,A+
+STU0283,Meera Tiwari,Mathematics,27,100,65,3,F
+STU0283,Meera Tiwari,Physics,52,100,57,2,C
+STU0283,Meera Tiwari,Chemistry,35,100,53,1,F
+STU0283,Meera Tiwari,Computer Science,55,100,74,2,C
+STU0283,Meera Tiwari,English,37,100,82,2,F
+STU0283,Meera Tiwari,Statistics,26,100,61,0,F
+STU0284,Waqar Malhotra,Mathematics,73,100,89,3,B+
+STU0284,Waqar Malhotra,Physics,80,100,90,5,A
+STU0284,Waqar Malhotra,Chemistry,76,100,100,6,B+
+STU0284,Waqar Malhotra,Computer Science,91,100,91,6,A+
+STU0284,Waqar Malhotra,English,81,100,100,11,A
+STU0284,Waqar Malhotra,Statistics,79,100,77,5,B+
+STU0285,Priya Khan,Mathematics,42,100,71,2,D
+STU0285,Priya Khan,Physics,45,100,61,4,D
+STU0285,Priya Khan,Chemistry,45,100,72,1,D
+STU0285,Priya Khan,Computer Science,78,100,46,2,B+
+STU0285,Priya Khan,English,45,100,45,0,D
+STU0285,Priya Khan,Statistics,23,100,46,2,F
+STU0286,Qasim Choudhary,Mathematics,10,100,66,0,F
+STU0286,Qasim Choudhary,Physics,32,100,71,5,F
+STU0286,Qasim Choudhary,Chemistry,35,100,82,0,F
+STU0286,Qasim Choudhary,Computer Science,17,100,36,3,F
+STU0286,Qasim Choudhary,English,44,100,72,3,D
+STU0286,Qasim Choudhary,Statistics,34,100,64,2,F
+STU0287,Vikram Pillai,Mathematics,34,100,60,0,F
+STU0287,Vikram Pillai,Physics,33,100,66,0,F
+STU0287,Vikram Pillai,Chemistry,28,100,77,2,F
+STU0287,Vikram Pillai,Computer Science,18,100,69,3,F
+STU0287,Vikram Pillai,English,40,100,45,0,D
+STU0287,Vikram Pillai,Statistics,19,100,67,5,F
+STU0288,Aishwarya Ali,Mathematics,54,100,67,4,C
+STU0288,Aishwarya Ali,Physics,68,100,64,0,B
+STU0288,Aishwarya Ali,Chemistry,50,100,65,1,C
+STU0288,Aishwarya Ali,Computer Science,37,100,75,2,F
+STU0288,Aishwarya Ali,English,49,100,70,0,D
+STU0288,Aishwarya Ali,Statistics,29,100,64,3,F
+STU0289,Kavita Ansari,Mathematics,56,100,74,4,C
+STU0289,Kavita Ansari,Physics,48,100,82,5,D
+STU0289,Kavita Ansari,Chemistry,56,100,70,4,C
+STU0289,Kavita Ansari,Computer Science,71,100,62,3,B+
+STU0289,Kavita Ansari,English,69,100,55,4,B
+STU0289,Kavita Ansari,Statistics,82,100,65,2,A
+STU0290,Farida Khan,Mathematics,76,100,81,3,B+
+STU0290,Farida Khan,Physics,52,100,84,2,C
+STU0290,Farida Khan,Chemistry,64,100,72,0,B
+STU0290,Farida Khan,Computer Science,56,100,76,1,C
+STU0290,Farida Khan,English,58,100,84,2,C
+STU0290,Farida Khan,Statistics,74,100,78,5,B+
+STU0291,Xena Agarwal,Mathematics,55,100,65,2,C
+STU0291,Xena Agarwal,Physics,44,100,63,3,D
+STU0291,Xena Agarwal,Chemistry,12,100,48,0,F
+STU0291,Xena Agarwal,Computer Science,52,100,58,4,C
+STU0291,Xena Agarwal,English,30,100,59,0,F
+STU0291,Xena Agarwal,Statistics,48,100,36,1,D
+STU0292,Jaya Menon,Mathematics,62,100,91,4,B
+STU0292,Jaya Menon,Physics,82,100,55,3,A
+STU0292,Jaya Menon,Chemistry,76,100,100,4,B+
+STU0292,Jaya Menon,Computer Science,42,100,79,5,D
+STU0292,Jaya Menon,English,55,100,78,4,C
+STU0292,Jaya Menon,Statistics,61,100,62,3,B
+STU0293,Suresh Ansari,Mathematics,34,100,69,2,F
+STU0293,Suresh Ansari,Physics,56,100,51,0,C
+STU0293,Suresh Ansari,Chemistry,24,100,49,3,F
+STU0293,Suresh Ansari,Computer Science,21,100,66,0,F
+STU0293,Suresh Ansari,English,51,100,52,2,C
+STU0293,Suresh Ansari,Statistics,41,100,48,0,D
+STU0294,Gaurav Kapoor,Mathematics,77,100,94,7,B+
+STU0294,Gaurav Kapoor,Physics,85,100,100,4,A
+STU0294,Gaurav Kapoor,Chemistry,93,100,80,6,A+
+STU0294,Gaurav Kapoor,Computer Science,87,100,77,6,A
+STU0294,Gaurav Kapoor,English,80,100,93,5,A
+STU0294,Gaurav Kapoor,Statistics,89,100,82,2,A
+STU0295,Tara Iyer,Mathematics,49,100,76,3,D
+STU0295,Tara Iyer,Physics,55,100,65,0,C
+STU0295,Tara Iyer,Chemistry,47,100,57,2,D
+STU0295,Tara Iyer,Computer Science,35,100,55,3,F
+STU0295,Tara Iyer,English,50,100,58,1,C
+STU0295,Tara Iyer,Statistics,63,100,51,2,B
+STU0296,Omkar Verma,Mathematics,24,100,82,0,F
+STU0296,Omkar Verma,Physics,31,100,48,1,F
+STU0296,Omkar Verma,Chemistry,53,100,61,0,C
+STU0296,Omkar Verma,Computer Science,39,100,53,1,F
+STU0296,Omkar Verma,English,45,100,52,2,D
+STU0296,Omkar Verma,Statistics,35,100,59,4,F
+STU0297,Gaurav Iyer,Mathematics,52,100,62,5,C
+STU0297,Gaurav Iyer,Physics,64,100,65,4,B
+STU0297,Gaurav Iyer,Chemistry,75,100,58,5,B+
+STU0297,Gaurav Iyer,Computer Science,65,100,89,3,B
+STU0297,Gaurav Iyer,English,58,100,77,5,C
+STU0297,Gaurav Iyer,Statistics,61,100,79,3,B
+STU0298,Wahida Kumar,Mathematics,61,100,74,4,B
+STU0298,Wahida Kumar,Physics,33,100,55,3,F
+STU0298,Wahida Kumar,Chemistry,41,100,56,4,D
+STU0298,Wahida Kumar,Computer Science,44,100,66,4,D
+STU0298,Wahida Kumar,English,54,100,71,0,C
+STU0298,Wahida Kumar,Statistics,73,100,70,5,B+
+STU0299,Vikram Tiwari,Mathematics,85,100,87,6,A
+STU0299,Vikram Tiwari,Physics,87,100,100,7,A
+STU0299,Vikram Tiwari,Chemistry,83,100,86,6,A
+STU0299,Vikram Tiwari,Computer Science,79,100,89,6,B+
+STU0299,Vikram Tiwari,English,80,100,93,7,A
+STU0299,Vikram Tiwari,Statistics,84,100,91,4,A
+STU0300,Omkar Iyer,Mathematics,77,100,95,6,B+
+STU0300,Omkar Iyer,Physics,100,100,100,6,A+
+STU0300,Omkar Iyer,Chemistry,94,100,88,6,A+
+STU0300,Omkar Iyer,Computer Science,74,100,100,5,B+
+STU0300,Omkar Iyer,English,93,100,88,8,A+
+STU0300,Omkar Iyer,Statistics,89,100,79,2,A

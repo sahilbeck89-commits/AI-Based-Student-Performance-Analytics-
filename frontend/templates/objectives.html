@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objectives — SPAS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .objectives-list { list-style: none; padding: 0; margin-top: 20px; }
+        .objectives-list li { 
+            background: rgba(255, 255, 255, 0.05); 
+            margin-bottom: 15px; 
+            padding: 20px; 
+            border-radius: 12px; 
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: transform 0.2s;
+        }
+        .objectives-list li:hover { transform: translateX(5px); background: rgba(255, 255, 255, 0.08); }
+        .obj-icon { font-size: 1.5rem; }
+    </style>
+</head>
+<body>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages">
+        {% for category, message in messages %}
+        <div class="flash-msg {{ category }}">{{ message }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <div class="dashboard-layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">📊 SPAS</div>
+            <nav class="sidebar-nav">
+                <a href="/">🏠 Home</a>
+                <a href="/dashboard">📋 Dashboard</a>
+                <a href="/analysis">🔍 Analysis</a>
+                <a href="/recommendation">💡 Recommendations</a>
+                <a href="/students">👥 All Students</a>
+                <a href="/objectives" class="active">🎯 Objectives</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="/logout" class="btn btn-danger btn-sm" style="width:100%">🚪 Logout</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="page-header">
+                <h1>🎯 Project Objectives</h1>
+            </div>
+
+            <div class="card">
+                <p style="color:var(--text-muted); margin-bottom: 20px;">The Student Performance Analysis System (SPAS) is built with the following core objectives to empower academic excellence:</p>
+                
+                <ul class="objectives-list">
+                    <li>
+                        <span class="obj-icon">📊</span>
+                        <div>
+                            <strong>Performance Visualization</strong>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Provide intuitive dashboards to track marks, attendance, and study patterns in real-time.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="obj-icon">🤖</span>
+                        <div>
+                            <strong>AI-Driven Predictions</strong>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Utilize Random Forest Machine Learning models to predict final outcomes based on current trends.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="obj-icon">📁</span>
+                        <div>
+                            <strong>Efficient Data Management</strong>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Support batch CSV processing for rapid student data ingestion and management.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="obj-icon">💡</span>
+                        <div>
+                            <strong>Personalized Growth</strong>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Generate automated recommendations to help students focus on their weak subjects.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="obj-icon">📱</span>
+                        <div>
+                            <strong>Modern Accessibility</strong>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Ensure a responsive, premium Glassmorphism design accessible across all devices.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

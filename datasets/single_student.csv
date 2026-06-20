@@ -1,0 +1,6 @@
+student_id,student_name,subject,marks,max_marks,attendance,study_hours,grade
+S001,Arjun Sharma,Mathematics,82,100,88,5,A
+S001,Arjun Sharma,Physics,75,100,80,4,B+
+S001,Arjun Sharma,Chemistry,91,100,95,6,A+
+S001,Arjun Sharma,Computer Science,88,100,92,5,A
+S001,Arjun Sharma,English,70,100,75,3,B+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations — SPAS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- ── Flash Messages ── -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="flash-messages">
+        {% for category, message in messages %}
+        <div class="flash-msg {{ category }}">{{ message }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endwith %}
+
+    <div class="dashboard-layout">
+
+        <!-- ── Sidebar ── -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">📊 SPAS</div>
+            <nav class="sidebar-nav">
+                <a href="/">🏠 Home</a>
+                <a href="/dashboard">📋 Dashboard</a>
+                <a href="/analysis">🔍 Analysis</a>
+                <a href="/recommendation" class="active">💡 Recommendations</a>
+                <a href="/students">👥 All Students</a>
+                <a href="/objectives">🎯 Objectives</a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="/logout" class="btn btn-danger btn-sm" style="width:100%">🚪 Logout</a>
+            </div>
+        </aside>
+
+        <!-- ── Main Content ── -->
+        <main class="main-content">
+
+            <div class="page-header">
+                <h1>Personalized Recommendations</h1>
+                <button class="btn btn-outline btn-sm" onclick="downloadReport()">📄 Download Report</button>
+            </div>
+
+            <div class="card" style="margin-bottom:24px">
+                <div class="card-title">ℹ️ How It Works</div>
+                <p style="color:var(--text-muted);font-size:.9rem">
+                    Recommendations are generated automatically based on your marks data.
+                    Subjects below 60% are flagged for improvement.
+                </p>
+            </div>
+
+            <!-- Recommendations list rendered by JS -->
+            <div id="recommendations-list">
+                <div class="card">
+                    <p style="color:var(--text-muted);text-align:center;padding:24px">Loading recommendations...</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', loadRecommendations);
+    </script>
+</body>
+</html>
